@@ -3,4 +3,6 @@
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="Appdes">An app that kick grabfood ass</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
 </resources>
