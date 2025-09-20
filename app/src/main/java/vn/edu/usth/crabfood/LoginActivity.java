@@ -1,6 +1,8 @@
 package vn.edu.usth.crabfood;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,9 @@ public class LoginActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void Registry(View view) {
+        startActivity(new Intent(LoginActivity.this,RegistryActivity.class));
     }
 }
