@@ -24,4 +24,8 @@ public class RegistryActivity extends AppCompatActivity {
         });
     }
 
+    public void Login(View view)
+    {
+        startActivity(new Intent(RegistryActivity.this,LoginActivity.class));
+    }
 }
