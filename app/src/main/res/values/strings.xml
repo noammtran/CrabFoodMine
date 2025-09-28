@@ -7,4 +7,10 @@
     <string name="password">Password</string>
     <string name="re_enter_password">Re-enter Password</string>
     <string name="already_has_account">Already has account?</string>
+    <string name="_10_00_23_00">10:00 - 23:00</string>
+    <string name="_5_0">5.0</string>
+    <string name="product_name">Product Name</string>
+    <string name="min_45">Min - $45</string>
+    <string name="doesn_t_have_account_yet">Doesn\'t have account yet?</string>
+
 </resources>
