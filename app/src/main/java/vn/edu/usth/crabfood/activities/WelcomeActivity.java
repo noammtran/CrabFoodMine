@@ -28,11 +28,11 @@ public class WelcomeActivity extends AppCompatActivity {
 
     public void Login(View view)
     {
-        startActivity(new Intent(WelcomeActivity.this,LoginActivity.class));
+        startActivity(new Intent(WelcomeActivity.this, LoginActivity.class));
     }
 
     public void Registry(View view)
     {
-        startActivity(new Intent(WelcomeActivity.this,RegistryActivity.class));
+        startActivity(new Intent(WelcomeActivity.this, RegistryActivity.class));
     }
 }

@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CrabFood">
         <activity
+            android:name=".activities.DetailedDailyMealActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.RegistryActivity"
             android:exported="false" />
         <activity
@@ -19,11 +22,10 @@
             android:exported="true" />
         <activity
             android:name=".activities.WelcomeActivity"
-            android:exported="true"/>
-
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

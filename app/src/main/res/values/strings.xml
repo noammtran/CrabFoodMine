@@ -7,10 +7,36 @@
     <string name="password">Password</string>
     <string name="re_enter_password">Re-enter Password</string>
     <string name="already_has_account">Already has account?</string>
+    <string name="my_cart">My Cart</string>
+    <string name="order">Order</string>
+    <string name="total_label">Total</string>
+    <string name="sample_total_price">200.000 vnd</string>
     <string name="_10_00_23_00">10:00 - 23:00</string>
     <string name="_5_0">5.0</string>
     <string name="product_name">Product Name</string>
     <string name="min_45">Min - $45</string>
     <string name="doesn_t_have_account_yet">Doesn\'t have account yet?</string>
+    <string name="hello_ali">Hello Ali</string>
+    <string name="what_do_you_want">What do you want ?</string>
+    <string name="search_your_food">Search your Food!</string>
+    <string name="pizza">Pizza</string>
+    <string name="description_description_description">Description Description Dinner</string>
+    <string name="Discount">Discount</string>
+    <string name="Dinner">Dinner</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="daily_meal">Daily Meal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="favourite">Favourite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

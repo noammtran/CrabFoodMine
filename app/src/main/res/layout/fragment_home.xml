@@ -20,12 +20,11 @@
             android:drawableRight="@drawable/baseline_search_24"
             android:drawablePadding="9dp"
             android:fontFamily="@font/amita"
-            android:hint="Search your Food!"
+            android:hint="@string/search_your_food"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:textSize="13sp"
-            app:layout_constrainedStart_toStartOf="parent"
-            app:layout_constrainedTop_toTopOf="parent"
+
             tools:layout_editor_absoluteX="7dp"
             tools:layout_editor_absoluteY="7dp" />
 
@@ -34,7 +33,6 @@
             android:layout_height="40dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/search_bg"
-            android:paddng="10dp"
             android:src="@drawable/baseline_person"
             app:layout_constraintBottom_toBottomOf="@+id/editText3"
             app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
             android:fontFamily="@font/amarante"
-            android:text="Hello Ali"
+            android:text="@string/hello_ali"
             android:textColor="@color/white"
             android:textSize="35dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -60,7 +58,7 @@
             android:layout_margin="6dp"
             android:layout_marginLeft="6dp"
             android:fontFamily="@font/amita"
-            android:text="What do you want ?"
+            android:text="@string/what_do_you_want"
             android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -72,6 +70,16 @@
             android:layout_margin="6dp"
             app:layout_constraintEnd_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/home_ver_rec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_marginTop="6dp"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/home_hor_rec" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.core.widget.NestedScrollView>

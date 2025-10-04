@@ -3,6 +3,7 @@ package vn.edu.usth.crabfood.activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import vn.edu.usth.crabfood.MainActivity;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,6 +28,10 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void Registry(View view) {
-        startActivity(new Intent(LoginActivity.this,RegistryActivity.class));
+        startActivity(new Intent(LoginActivity.this, RegistryActivity.class));
+    }
+
+    public void MainActivity(View view) {
+        startActivity(new Intent(LoginActivity.this, MainActivity.class));
     }
 }
