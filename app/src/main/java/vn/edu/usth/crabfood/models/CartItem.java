@@ -1,39 +1,41 @@
 package vn.edu.usth.crabfood.models;
 
 public class CartItem {
-    private String name;
-    private double price;
-    private int imageResourceId; // New field for image resource ID
+    private final String name;
+    private final double price;
+    private final int imageResourceId;
+    private int quantity;
+    private final float rating; // New field
 
-    public CartItem(String name, double price, int imageResourceId) {
+    public CartItem(String name, double price, int imageResourceId, float rating) {
         this.name = name;
         this.price = price;
-        this.imageResourceId = imageResourceId; // Initialize new field
+        this.imageResourceId = imageResourceId;
+        this.quantity = 1; // Default quantity is 1
+        this.rating = rating;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    // Getter for imageResourceId
     public int getImageResourceId() {
         return imageResourceId;
     }
 
-    // Setter for imageResourceId
-    public void setImageResourceId(int imageResourceId) {
-        this.imageResourceId = imageResourceId;
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public float getRating() {
+        return rating;
     }
 }

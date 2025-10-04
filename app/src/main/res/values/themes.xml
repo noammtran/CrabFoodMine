@@ -31,4 +31,5 @@
     <style name="Theme.CrabFood.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.CrabFood.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

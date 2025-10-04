@@ -4,43 +4,113 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="8dp">
+    android:padding="16dp">
 
     <ImageView
         android:id="@+id/item_image"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/cake"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:contentDescription="Food item image" />
+        tools:src="@drawable/cake"
+        android:contentDescription="@string/food_item_image" />
 
+    <!-- Remove Button -->
+    <TextView
+        android:id="@+id/remove_item_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="✕"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Item Name -->
     <TextView
         android:id="@+id/item_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="?android:attr/textColorPrimary"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="?android:attr/textColorPrimary"
+        android:fontFamily="@font/amarante"
         app:layout_constraintStart_toEndOf="@id/item_image"
         app:layout_constraintTop_toTopOf="@id/item_image"
         app:layout_constraintEnd_toEndOf="parent"
         tools:text="Cheesecake" />
 
+    <!-- Rating Bar -->
+    <RatingBar
+        android:id="@+id/rating_bar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="0.1"
+        app:layout_constraintStart_toStartOf="@id/item_name"
+        app:layout_constraintTop_toBottomOf="@id/item_name"
+        tools:rating="4.5" />
+
+    <!-- Minus Button -->
+    <Button
+        android:id="@+id/minus_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="-"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/item_image"
+        app:layout_constraintTop_toBottomOf="@id/rating_bar" />
+
+    <!-- Quantity -->
     <TextView
-        android:id="@+id/item_price"
-        android:layout_width="0dp"
+        android:id="@+id/item_quantity"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:text="1"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/minus_button"
+        app:layout_constraintStart_toEndOf="@id/minus_button"
+        app:layout_constraintTop_toTopOf="@id/minus_button" />
+
+    <!-- Plus Button -->
+    <Button
+        android:id="@+id/plus_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="+"
         android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/minus_button"
+        app:layout_constraintStart_toEndOf="@id/item_quantity"
+        app:layout_constraintTop_toTopOf="@id/minus_button" />
+
+    <!-- Item Price -->
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amarante"
         android:textColor="?android:attr/textColorSecondary"
-        app:layout_constraintStart_toEndOf="@id/item_image"
-        app:layout_constraintTop_toBottomOf="@id/item_name"
-        app:layout_constraintBottom_toBottomOf="@id/item_image"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/plus_button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/plus_button"
         tools:text="100.000 vnd" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

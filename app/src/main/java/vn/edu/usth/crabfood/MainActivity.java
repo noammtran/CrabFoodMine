@@ -1,6 +1,8 @@
 package vn.edu.usth.crabfood;  // <-- Make sure this matches your folder/package
 
 import android.os.Bundle;
+import android.widget.Toolbar;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.ViewCompat;
@@ -23,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);  // Your main layout (must contain drawer_layout)
+
+
+
         NavigationView navigationView = findViewById(R.id.nav_view);
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
 
@@ -36,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         NavigationUI.setupWithNavController(navigationView, navController);
+        setSupportActionBar(findViewById(R.id.toolbar));
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
 
 

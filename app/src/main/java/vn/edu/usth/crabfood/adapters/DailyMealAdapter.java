@@ -28,8 +28,6 @@ public class DailyMealAdapter extends RecyclerView.Adapter<DailyMealAdapter.View
         this.list = list;
     }
 
-
-
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -47,9 +45,9 @@ public class DailyMealAdapter extends RecyclerView.Adapter<DailyMealAdapter.View
         holder.imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               Intent intent = new Intent(context, DetailedDailyMealActivity.class);
-               intent.putExtra("type",list.get(position).getType());
-               context.startActivity(intent);
+                Intent intent = new Intent(context, DetailedDailyMealActivity.class);
+                intent.putExtra("type",list.get(position).getType());
+                context.startActivity(intent);
             }
         });
     }
