@@ -1,6 +1,7 @@
 package vn.edu.usth.crabfood.ui.dailymeal;
 
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,6 +25,7 @@ public class DailyMealFragment extends Fragment{
     List<DailyMealModels> dailyMealModels;
     DailyMealAdapter dailyMealAdapter;
 
+    @SuppressLint("NotifyDataSetChanged")
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.daily_meal_fragment, container, false);
@@ -32,11 +34,11 @@ public class DailyMealFragment extends Fragment{
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         dailyMealModels = new ArrayList<>();
 
-        dailyMealModels.add(new DailyMealModels(R.drawable.ic_breakfast,"Breakfast","29% OFF","Description"));
-        dailyMealModels.add(new DailyMealModels(R.drawable.ic_lunch,"Lunch","29% OFF","Description"));
-        dailyMealModels.add(new DailyMealModels(R.drawable.ic_dinner,"Dinner","29% OFF","Description"));
-        dailyMealModels.add(new DailyMealModels(R.drawable.ic_sweet,"Sweets","29% OFF","Description"));
-        dailyMealModels.add(new DailyMealModels(R.drawable.ic_coffe,"Coffee","29% OFF","Description"));
+        dailyMealModels.add(new DailyMealModels(R.drawable.ic_breakfast,"Breakfast","29% OFF","Description","breakfast"));
+        dailyMealModels.add(new DailyMealModels(R.drawable.ic_lunch,"Lunch","29% OFF","Description","lunch"));
+        dailyMealModels.add(new DailyMealModels(R.drawable.ic_dinner,"Dinner","29% OFF","Description","lunch"));
+        dailyMealModels.add(new DailyMealModels(R.drawable.ic_sweet,"Sweets","29% OFF","Description","sweet"));
+        dailyMealModels.add(new DailyMealModels(R.drawable.ic_coffe,"Coffee","29% OFF","Description","coffee"));
 
         dailyMealAdapter = new DailyMealAdapter(getContext(),dailyMealModels);
         recyclerView.setAdapter(dailyMealAdapter);

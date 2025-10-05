@@ -1,16 +1,19 @@
 package vn.edu.usth.crabfood.models;
 
 public class DailyMealModels {
-    public DailyMealModels(int image, String name, String discount, String description) {
-        this.image = image;
-        this.name = name;
-        this.discount = discount;
-        this.description = description;
-    }
     int image;
     String name;
     String discount;
     String type;
+    String description;
+
+    public DailyMealModels(int image, String name, String discount, String description,String type) {
+        this.image = image;
+        this.name = name;
+        this.discount = discount;
+        this.description = description;
+
+    }
 
     public String getDescription() {
         return description;
@@ -52,5 +55,5 @@ public class DailyMealModels {
         this.image = image;
     }
 
-    String description;
+
 }

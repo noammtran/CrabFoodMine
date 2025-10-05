@@ -28,6 +28,7 @@ public class HomeFragment extends Fragment implements UpdateVerticalRec {
     ArrayList<HomeVerModels> homeVerModelList;
     HomeVerAdapter homeVerAdapter;
 
+    @Override
     public View OncreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_home, container, false);

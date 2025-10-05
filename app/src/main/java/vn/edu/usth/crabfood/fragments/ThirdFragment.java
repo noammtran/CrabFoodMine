@@ -18,13 +18,16 @@ import vn.edu.usth.crabfood.models.FeaturedVerModel;
 
 public class ThirdFragment extends Fragment {
 
+    /// HORIZONTAL
     FeaturedAdapter featuredAdapter;
-    RecyclerView featuredList;
     RecyclerView recyclerView;
+    List<FeaturedModel> featuredModelsList;
+
+    ///  VERTICAL
     List<FeaturedVerModel> featuredVerModelList;
     RecyclerView recyclerView2;
     FeaturedVerAdapter featuredVerAdapter;
-    List<FeaturedModel> featuredModelsList;
+
 
 
     public ThirdFragment() {
@@ -35,7 +38,7 @@ public class ThirdFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_first, container, false);
+        View view = inflater.inflate(R.layout.fragment_third, container, false);
 
         recyclerView = view.findViewById(R.id.featured_hor_rec);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
@@ -44,8 +47,8 @@ public class ThirdFragment extends Fragment {
         featuredModelsList.add(new FeaturedModel(R.drawable.fav2, "name2", "desc2"));
         featuredModelsList.add(new FeaturedModel(R.drawable.fav3, "name3", "desc3"));
 
-        FeaturedAdapter featuredAdapter = new FeaturedAdapter(featuredModelsList);
-        featuredList.setAdapter(featuredAdapter);
+        featuredAdapter = new FeaturedAdapter(featuredModelsList);
+        recyclerView.setAdapter(featuredAdapter);
 
         recyclerView2 = view.findViewById(R.id.featured_ver_rec);
         recyclerView2.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));

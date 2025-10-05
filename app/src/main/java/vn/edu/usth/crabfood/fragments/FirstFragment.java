@@ -18,13 +18,16 @@ import vn.edu.usth.crabfood.models.FeaturedVerModel;
 
 public class FirstFragment extends Fragment {
 
+    /// HORIZONTAL
     FeaturedAdapter featuredAdapter;
-    RecyclerView featuredList;
     RecyclerView recyclerView;
+    List<FeaturedModel> featuredModelsList;
+
+    ///  VERTICAL
     List<FeaturedVerModel> featuredVerModelList;
     RecyclerView recyclerView2;
     FeaturedVerAdapter featuredVerAdapter;
-    List<FeaturedModel> featuredModelsList;
+
 
 
     public FirstFragment() {
@@ -44,8 +47,8 @@ public class FirstFragment extends Fragment {
         featuredModelsList.add(new FeaturedModel(R.drawable.fav2, "name2", "desc2"));
         featuredModelsList.add(new FeaturedModel(R.drawable.fav3, "name3", "desc3"));
 
-        FeaturedAdapter featuredAdapter = new FeaturedAdapter(featuredModelsList);
-        featuredList.setAdapter(featuredAdapter);
+        featuredAdapter = new FeaturedAdapter(featuredModelsList);
+        recyclerView.setAdapter(featuredAdapter);
 
         recyclerView2 = view.findViewById(R.id.featured_ver_rec);
         recyclerView2.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
