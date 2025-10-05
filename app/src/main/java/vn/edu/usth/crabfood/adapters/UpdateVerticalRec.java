@@ -15,6 +15,9 @@ public interface UpdateVerticalRec {
     View OncreateView(@NonNull LayoutInflater inflater,
                       ViewGroup container, Bundle savedInstanceState);
 
+    View OnCreateView(@NonNull LayoutInflater inflater,
+                      ViewGroup container, Bundle savedInstanceState);
+
     public default void callBack(int position, ArrayList<HomeVerModels> list){
 
     }

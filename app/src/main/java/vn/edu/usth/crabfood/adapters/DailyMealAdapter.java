@@ -37,6 +37,7 @@ public class DailyMealAdapter extends RecyclerView.Adapter<DailyMealAdapter.View
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
 
+
         holder.imageView.setImageResource(list.get(position).getImage());
         holder.name.setText(list.get(position).getName());
         holder.discount.setText(list.get(position).getDiscount());
@@ -55,7 +56,7 @@ public class DailyMealAdapter extends RecyclerView.Adapter<DailyMealAdapter.View
 
     @Override
     public int getItemCount() {
-        return list.size();
+        return list == null ? 0 : list.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -66,7 +67,7 @@ public class DailyMealAdapter extends RecyclerView.Adapter<DailyMealAdapter.View
             super(itemView);
 
             imageView = itemView.findViewById(R.id.imageview);
-            name = itemView.findViewById(R.id.textView);
+            name = itemView.findViewById(R.id.textView7);
             description = itemView.findViewById(R.id.textView5);
             discount = itemView.findViewById(R.id.discount);
         }

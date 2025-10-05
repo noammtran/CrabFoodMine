@@ -31,5 +31,6 @@
             android:text="Log Out"
             android:textStyle="bold"/>
     </com.google.android.material.navigation.NavigationView>
+    h
 
 </androidx.drawerlayout.widget.DrawerLayout>
