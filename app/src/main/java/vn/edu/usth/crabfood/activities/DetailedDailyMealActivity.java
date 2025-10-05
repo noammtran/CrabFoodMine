@@ -42,6 +42,18 @@ public class DetailedDailyMealActivity extends AppCompatActivity {
         recyclerView.setAdapter(dailyAdapter);
 
         if (type != null && type.equalsIgnoreCase("breakfast")){
+
+
+            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav1,"name1","desc1","rating1","price1","timing1"));
+            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav2,"name2","desc2","rating2","price2","timing2"));
+            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav3,"name3","desc3","rating3","price3","timing3"));
+            dailyAdapter.notifyDataSetChanged();
+
+        }
+
+        if (type != null && type.equalsIgnoreCase("lunch")){
+
+
             detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav1,"name1","desc1","rating1","price1","timing1"));
             detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav2,"name2","desc2","rating2","price2","timing2"));
             detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav3,"name3","desc3","rating3","price3","timing3"));
@@ -50,6 +62,8 @@ public class DetailedDailyMealActivity extends AppCompatActivity {
         }
 
         if (type != null && type.equalsIgnoreCase("sweets")){
+
+            imageView.setImageResource(R.drawable.sweets_bg);
             detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.s1,"name1","desc1","rating1","price1","timing1"));
             detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.s2,"name2","desc2","rating2","price2","timing2"));
             detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.s3,"name3","desc3","rating3","price3","timing3"));
@@ -57,13 +71,25 @@ public class DetailedDailyMealActivity extends AppCompatActivity {
 
         }
 
-        recyclerView = findViewById(R.id.detailed_rec);
-        imageView = findViewById(R.id.detailed_img);
+        if (type != null && type.equalsIgnoreCase("lunch")){
 
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        detailedDailyModelsList = new ArrayList<>();
-        dailyAdapter = new DetailedDailyAdapter(detailedDailyModelsList);
-        recyclerView.setAdapter(dailyAdapter);
+
+            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav1,"name1","desc1","rating1","price1","timing1"));
+            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav2,"name2","desc2","rating2","price2","timing2"));
+            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav3,"name3","desc3","rating3","price3","timing3"));
+            dailyAdapter.notifyDataSetChanged();
+
+        }
+
+        if (type != null && type.equalsIgnoreCase("coffee")){
+
+
+            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav1,"name1","desc1","rating1","price1","timing1"));
+            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav2,"name2","desc2","rating2","price2","timing2"));
+            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav3,"name3","desc3","rating3","price3","timing3"));
+            dailyAdapter.notifyDataSetChanged();
+
+        }
 
     }
 }

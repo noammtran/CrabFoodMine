@@ -38,8 +38,8 @@ public class DailyMealFragment extends Fragment{
 
         dailyMealModels.add(new DailyMealModels(R.drawable.ic_breakfast,"Breakfast","29% OFF","Description","breakfast"));
         dailyMealModels.add(new DailyMealModels(R.drawable.ic_lunch,"Lunch","29% OFF","Description","lunch"));
-        dailyMealModels.add(new DailyMealModels(R.drawable.ic_dinner,"Dinner","29% OFF","Description","lunch"));
-        dailyMealModels.add(new DailyMealModels(R.drawable.ic_sweet,"Sweets","29% OFF","Description","sweet"));
+        dailyMealModels.add(new DailyMealModels(R.drawable.ic_dinner,"Dinner","29% OFF","Description","dinner"));
+        dailyMealModels.add(new DailyMealModels(R.drawable.ic_sweet,"Sweets","29% OFF","Description","sweets"));
         dailyMealModels.add(new DailyMealModels(R.drawable.ic_coffe,"Coffee","29% OFF","Description","coffee"));
 
         dailyMealAdapter = new DailyMealAdapter(getContext(),dailyMealModels);

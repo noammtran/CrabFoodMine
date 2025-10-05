@@ -43,6 +43,7 @@ public class FirstFragment extends Fragment {
         recyclerView = view.findViewById(R.id.featured_hor_rec);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
         featuredModelsList = new ArrayList<>();
+
         featuredModelsList.add(new FeaturedModel(R.drawable.fav1, "name1", "desc1"));
         featuredModelsList.add(new FeaturedModel(R.drawable.fav2, "name2", "desc2"));
         featuredModelsList.add(new FeaturedModel(R.drawable.fav3, "name3", "desc3"));
@@ -52,10 +53,16 @@ public class FirstFragment extends Fragment {
 
         recyclerView2 = view.findViewById(R.id.featured_ver_rec);
         recyclerView2.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
+
         featuredVerModelList = new ArrayList<>();
+
         featuredVerModelList.add(new FeaturedVerModel(R.drawable.ver1, "name1", "desc1", "rating1", "timing1"));
         featuredVerModelList.add(new FeaturedVerModel(R.drawable.ver2, "name2", "desc2", "rating2", "timing2"));
         featuredVerModelList.add(new FeaturedVerModel(R.drawable.ver3, "name3", "desc3", "rating3", "timing3"));
+        featuredVerModelList.add(new FeaturedVerModel(R.drawable.ver1, "name1", "desc1", "rating1", "timing1"));
+        featuredVerModelList.add(new FeaturedVerModel(R.drawable.ver2, "name2", "desc2", "rating2", "timing2"));
+        featuredVerModelList.add(new FeaturedVerModel(R.drawable.ver3, "name3", "desc3", "rating3", "timing3"));
+
         featuredVerAdapter = new FeaturedVerAdapter(featuredVerModelList);
         recyclerView2.setAdapter(featuredVerAdapter);
         return view;

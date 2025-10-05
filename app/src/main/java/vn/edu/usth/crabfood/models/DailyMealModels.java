@@ -12,6 +12,7 @@ public class DailyMealModels {
         this.name = name;
         this.discount = discount;
         this.description = description;
+        this.type = type;
 
     }
 
