@@ -1,6 +1,7 @@
 package vn.edu.usth.crabfood.adapters;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +16,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialog;
 import java.util.ArrayList;
 
 import vn.edu.usth.crabfood.R;
+import vn.edu.usth.crabfood.models.CartItem;
 import vn.edu.usth.crabfood.models.HomeVerModels;
 
 public class HomeVerAdapter extends RecyclerView.Adapter<HomeVerAdapter.ViewHolder>{
@@ -49,6 +51,7 @@ public class HomeVerAdapter extends RecyclerView.Adapter<HomeVerAdapter.ViewHold
         holder.rating.setText(list.get(position).getRating());
         holder.price.setText(list.get(position).getPrice());
 
+
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick (View v){
@@ -57,6 +60,10 @@ public class HomeVerAdapter extends RecyclerView.Adapter<HomeVerAdapter.ViewHold
                 sheetView.findViewById(R.id.add_to_cart).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        String Pricetext = holder.price.getText().toString().substring(7, holder.price.getText().toString().length());
+                        Log.e( "onClick: ",Pricetext );
+                        CartAdapter.cartItems.add(new CartItem(holder.name.getText().toString(), Double.parseDouble(Pricetext),
+                                R.drawable.ic_burger, Float.parseFloat(holder.rating.getText().toString())));
                         Toast.makeText(context, "Added to a Cart", Toast.LENGTH_SHORT).show();
                         bottomSheetDialog.dismiss();
                     }

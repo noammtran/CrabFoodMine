@@ -12,21 +12,26 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import vn.edu.usth.crabfood.R;
 import vn.edu.usth.crabfood.activities.DetailedDailyMealActivity;
+import vn.edu.usth.crabfood.models.CartItem;
 import vn.edu.usth.crabfood.models.DailyMealModels;
 
 public class DailyMealAdapter extends RecyclerView.Adapter<DailyMealAdapter.ViewHolder> {
 
     Context context;
     List<DailyMealModels> list;
+    private List<CartItem> cartItems;
 
     public DailyMealAdapter(Context context, List<DailyMealModels> list) {
         this.context = context;
         this.list = list;
     }
+
+
 
     @NonNull
     @Override

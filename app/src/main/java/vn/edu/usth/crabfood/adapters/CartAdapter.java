@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.text.NumberFormat;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
@@ -19,7 +20,7 @@ import vn.edu.usth.crabfood.R;
 
 public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
 
-    private final List<CartItem> cartItems;
+    public static final List<CartItem> cartItems = new ArrayList<>();
     private final CartItemListener listener;
 
     public interface CartItemListener {
@@ -27,8 +28,8 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
         void onItemRemoved(CartItem item);
     }
 
-    public CartAdapter(List<CartItem> cartItems, CartItemListener listener) {
-        this.cartItems = cartItems;
+    public CartAdapter(CartItemListener listener) {
+
         this.listener = listener;
     }
 

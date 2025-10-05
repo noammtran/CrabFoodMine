@@ -16,7 +16,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import vn.edu.usth.crabfood.R;
+import vn.edu.usth.crabfood.adapters.CartAdapter;
 import vn.edu.usth.crabfood.adapters.DailyMealAdapter;
+import vn.edu.usth.crabfood.models.CartItem;
 import vn.edu.usth.crabfood.models.DailyMealModels;
 
 public class DailyMealFragment extends Fragment{

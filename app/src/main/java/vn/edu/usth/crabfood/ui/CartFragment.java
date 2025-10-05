@@ -44,17 +44,13 @@ public class CartFragment extends Fragment implements CartAdapter.CartItemListen
         totalPriceTextView = view.findViewById(R.id.total_price_textview);
         cartRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
-        cartItems = new ArrayList<>();
-        // Add items with ratings
-        cartItems.add(new CartItem("Delicious Cake", 25000d, R.drawable.cake, 4.5f));
-        cartItems.add(new CartItem("Classic Hamburger", 25000d, R.drawable.hamburger, 4.0f));
-        cartItems.add(new CartItem("Sweet Ice Cream", 10000d, R.drawable.icecream, 5.0f));
-        cartItems.add(new CartItem("Fresh Eggs", 10000d, R.drawable.egg, 3.5f));
-        cartItems.add(new CartItem("Cool Milkshake", 20000d, R.drawable.milkshake, 4.2f));
-        cartItems.add(new CartItem("Hot Ramen", 50000d, R.drawable.ramen, 4.8f));
-        cartItems.add(new CartItem("Tasty Sushi", 25000d, R.drawable.sushi, 4.9f));
 
-        CartAdapter cartAdapter = new CartAdapter(cartItems, this);
+        // Add items with ratings
+        CartAdapter.cartItems.add(new CartItem("Delicious Cake", 25000d, R.drawable.cake, 4.5f));
+        CartAdapter.cartItems.add(new CartItem("Classic Hamburger", 25000d, R.drawable.hamburger, 4.0f));
+
+
+        CartAdapter cartAdapter = new CartAdapter(this);
         cartRecyclerView.setAdapter(cartAdapter);
 
         updateTotalPrice();
@@ -72,7 +68,7 @@ public class CartFragment extends Fragment implements CartAdapter.CartItemListen
 
     private void updateTotalPrice() {
         double total = 0;
-        for (CartItem item : cartItems) {
+        for (CartItem item : CartAdapter.cartItems) {
             total += item.getPrice() * item.getQuantity();
         }
 

@@ -21,9 +21,6 @@ import vn.edu.usth.crabfood.models.DetailedDailyModels;
 public class DetailedDailyAdapter extends RecyclerView.Adapter<DetailedDailyAdapter.ViewHolder> {
 
     List<DetailedDailyModels> list;
-    RecyclerView recyclerView;
-    DetailedDailyAdapter dailyAdapter;
-    ImageView imageView;
 
 
 
