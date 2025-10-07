@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "601529525725",
+    "project_id": "crabfood-45844",
+    "storage_bucket": "crabfood-45844.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601529525725:android:929a3eb5154afbfc028234",
+        "android_client_info": {
+          "package_name": "vn.edu.usth.crabfood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9dKQ-Ow2lmwD41lStNuTLyWgDTt1lGs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

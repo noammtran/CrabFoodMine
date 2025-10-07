@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -12,10 +13,13 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 import java.util.List;
 
 import vn.edu.usth.crabfood.R;
+import vn.edu.usth.crabfood.models.CartItem;
 import vn.edu.usth.crabfood.models.DetailedDailyModels;
 
 public class DetailedDailyAdapter extends RecyclerView.Adapter<DetailedDailyAdapter.ViewHolder> {
@@ -37,12 +41,22 @@ public class DetailedDailyAdapter extends RecyclerView.Adapter<DetailedDailyAdap
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.imageView.setImageResource(list.get(position).getImage());
+        //Model for this ís DetailDailyModels, img change from id to link
+        //for this we need to make some modify at DetailDailyMealActivity
+        Picasso.get().load(list.get(position).getImage()).into(holder.imageView);// Set image for detailed_daily_meal_item
         holder.name.setText(list.get(position).getName());
         holder.description.setText(list.get(position).getDescription());
         holder.rating.setText(list.get(position).getRating());
         holder.price.setText(list.get(position).getPrice());
         holder.timing.setText(list.get(position).getTiming());
+        String imgLink = list.get(position).getImage();
+        holder.button.setOnClickListener(new View.OnClickListener() { // set onClick event to add the item to cart list
+            @Override
+            public void onClick(View v) {
+                CartAdapter.cartItems.add(new CartItem(holder.name.getText().toString(), Double.parseDouble(holder.price.getText().toString()),
+                        imgLink, Float.parseFloat(holder.rating.getText().toString())));
+            }
+        });
     }
 
     @Override
@@ -55,6 +69,7 @@ public class DetailedDailyAdapter extends RecyclerView.Adapter<DetailedDailyAdap
         ImageView imageView;
         TextView name,description,rating,price,timing;
 
+        Button button; // add button
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.detailed_img);
@@ -63,7 +78,7 @@ public class DetailedDailyAdapter extends RecyclerView.Adapter<DetailedDailyAdap
             rating = itemView.findViewById(R.id.detailed_rating);
             price = itemView.findViewById(R.id.detailed_price);
             timing = itemView.findViewById(R.id.detailed_timing);
-
+            button = itemView.findViewById(R.id.addBtn);
         }
     }
 }

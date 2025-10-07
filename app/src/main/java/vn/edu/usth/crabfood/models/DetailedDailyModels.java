@@ -1,14 +1,14 @@
 package vn.edu.usth.crabfood.models;
 
 public class DetailedDailyModels {
-    int image;
+    String image; //Change to String from int for Api use
     String name;
     String description;
     String rating;
     String price;
     String timing;
 
-    public DetailedDailyModels(int image, String name, String description, String rating, String price, String timing) {
+    public DetailedDailyModels(String image, String name, String description, String rating, String price, String timing) {
         this.image = image;
         this.name = name;
         this.description = description;
@@ -17,11 +17,11 @@ public class DetailedDailyModels {
         this.timing = timing;
     }
 
-    public int getImage() {
+    public String getImage() {
         return image;
     }
 
-    public void setImage(int image) {
+    public void setImage(String image) {
         this.image = image;
     }
 

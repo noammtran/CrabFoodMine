@@ -22,7 +22,7 @@
         android:text="@string/app_name"
         android:textColor="@color/black"
         android:fontFamily=""
-        android:textSize="44dp"
+        android:textSize="44sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,7 @@
         android:fontFamily=""
         android:text="@string/Appdes"
         android:textColor="@color/black"
-        android:textSize="22dp"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,31 +44,31 @@
         app:layout_constraintVertical_bias="0" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/emailReg"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:hint="@string/username"
-        android:textSize="25dp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/passF"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:hint="@string/password"
-        android:textSize="25dp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/emailReg"
         app:layout_constraintVertical_bias="0" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/passS"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:hint="@string/re_enter_password"
@@ -77,19 +77,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/passF"
         app:layout_constraintVertical_bias="0" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/regBtn"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="4dp"
-        android:background="@color/orange"
+        app:backgroundTint="@color/orange"
         android:text="@string/register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/passS" />
 
     <TextView
         android:id="@+id/textView3"
@@ -97,10 +98,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:text="@string/already_has_account"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/regBtn"
         app:layout_constraintVertical_bias="0.502" />
 
     <Button
@@ -109,11 +110,11 @@
         android:background="@android:color/transparent"
         android:onClick="Login"
         android:text="@string/login"
-        android:textSize="15dp"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/regBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

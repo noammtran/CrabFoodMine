@@ -16,9 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import vn.edu.usth.crabfood.R;
-import vn.edu.usth.crabfood.adapters.CartAdapter;
 import vn.edu.usth.crabfood.adapters.DailyMealAdapter;
-import vn.edu.usth.crabfood.models.CartItem;
 import vn.edu.usth.crabfood.models.DailyMealModels;
 
 public class DailyMealFragment extends Fragment{
@@ -36,11 +34,10 @@ public class DailyMealFragment extends Fragment{
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         dailyMealModels = new ArrayList<>();
 
-        dailyMealModels.add(new DailyMealModels(R.drawable.ic_breakfast,"Breakfast","29% OFF","Description","breakfast"));
-        dailyMealModels.add(new DailyMealModels(R.drawable.ic_lunch,"Lunch","29% OFF","Description","lunch"));
-        dailyMealModels.add(new DailyMealModels(R.drawable.ic_dinner,"Dinner","29% OFF","Description","dinner"));
-        dailyMealModels.add(new DailyMealModels(R.drawable.ic_sweet,"Sweets","29% OFF","Description","sweets"));
-        dailyMealModels.add(new DailyMealModels(R.drawable.ic_coffe,"Coffee","29% OFF","Description","coffee"));
+        dailyMealModels.add(new DailyMealModels(R.drawable.ic_breakfast,"Chocolate","29% OFF","Description","Chocolate"));
+        dailyMealModels.add(new DailyMealModels(R.drawable.ic_lunch,"Dessert","29% OFF","Description","Dessert"));
+        dailyMealModels.add(new DailyMealModels(R.drawable.ic_dinner,"IceCream","29% OFF","Description","IceCream"));
+        dailyMealModels.add(new DailyMealModels(R.drawable.ic_sweet,"Drink","29% OFF","Description","Drink"));
 
         dailyMealAdapter = new DailyMealAdapter(getContext(),dailyMealModels);
         recyclerView.setAdapter(dailyMealAdapter);

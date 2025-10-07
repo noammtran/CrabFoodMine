@@ -15,15 +15,21 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
+import vn.edu.usth.crabfood.ApiHelper;
 import vn.edu.usth.crabfood.R;
 import vn.edu.usth.crabfood.adapters.DetailedDailyAdapter;
+import vn.edu.usth.crabfood.models.Chocolate;
+import vn.edu.usth.crabfood.models.Dessert;
 import vn.edu.usth.crabfood.models.DetailedDailyModels;
+import vn.edu.usth.crabfood.models.Drink;
+import vn.edu.usth.crabfood.models.IceCream;
 
 public class DetailedDailyMealActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     List<DetailedDailyModels> detailedDailyModelsList;
     DetailedDailyAdapter dailyAdapter;
     ImageView imageView;
+
 
     @SuppressLint("NotifyDataSetChanged")
     @Override
@@ -41,52 +47,43 @@ public class DetailedDailyMealActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(dailyAdapter);
 
-        if (type != null && type.equalsIgnoreCase("breakfast")){
 
+        if (type != null && type.equalsIgnoreCase("Chocolate")){
 
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav1,"name1","desc1","rating1","price1","timing1"));
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav2,"name2","desc2","rating2","price2","timing2"));
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav3,"name3","desc3","rating3","price3","timing3"));
+            for (Chocolate choco: ApiHelper.menu.getChocolates()) {
+                //new DetailedDailyModels(R.drawable.fav1,"name1","desc1","rating1","price1","timing1")
+                detailedDailyModelsList.add(new DetailedDailyModels(choco.getImg(), choco.getName(), choco.getDsc(), Integer.toString(choco.getRate()), Double.toString(choco.getPrice()), "timimg1"));
+            }
             dailyAdapter.notifyDataSetChanged();
 
         }
 
-        if (type != null && type.equalsIgnoreCase("lunch")){
+        if (type != null && type.equalsIgnoreCase("Dessert")){
 
-
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav1,"name1","desc1","rating1","price1","timing1"));
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav2,"name2","desc2","rating2","price2","timing2"));
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav3,"name3","desc3","rating3","price3","timing3"));
+            for (Dessert dessert: ApiHelper.menu.getDesserts()) {
+                //new DetailedDailyModels(R.drawable.fav1,"name1","desc1","rating1","price1","timing1")
+                detailedDailyModelsList.add(new DetailedDailyModels(dessert.getImg(), dessert.getName(), dessert.getDsc(), Integer.toString(dessert.getRate()), Double.toString(dessert.getPrice()), "timimg1"));
+            }
             dailyAdapter.notifyDataSetChanged();
 
         }
 
-        if (type != null && type.equalsIgnoreCase("sweets")){
+        if (type != null && type.equalsIgnoreCase("IceCream")){
 
-            imageView.setImageResource(R.drawable.sweets_bg);
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.s1,"name1","desc1","rating1","price1","timing1"));
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.s2,"name2","desc2","rating2","price2","timing2"));
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.s3,"name3","desc3","rating3","price3","timing3"));
+            for (IceCream icecream: ApiHelper.menu.getIcecream()) {
+                //new DetailedDailyModels(R.drawable.fav1,"name1","desc1","rating1","price1","timing1")
+                detailedDailyModelsList.add(new DetailedDailyModels(icecream.getImg(), icecream.getName(), icecream.getDsc(), Integer.toString(icecream.getRate()), Double.toString(icecream.getPrice()), "timimg1"));
+            }
             dailyAdapter.notifyDataSetChanged();
 
         }
 
-        if (type != null && type.equalsIgnoreCase("lunch")){
+        if (type != null && type.equalsIgnoreCase("Drink")){
 
-
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav1,"name1","desc1","rating1","price1","timing1"));
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav2,"name2","desc2","rating2","price2","timing2"));
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav3,"name3","desc3","rating3","price3","timing3"));
-            dailyAdapter.notifyDataSetChanged();
-
-        }
-
-        if (type != null && type.equalsIgnoreCase("coffee")){
-
-
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav1,"name1","desc1","rating1","price1","timing1"));
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav2,"name2","desc2","rating2","price2","timing2"));
-            detailedDailyModelsList.add(new DetailedDailyModels(R.drawable.fav3,"name3","desc3","rating3","price3","timing3"));
+            for (Drink drink: ApiHelper.menu.getDrinks()) {
+                //new DetailedDailyModels(R.drawable.fav1,"name1","desc1","rating1","price1","timing1")
+                detailedDailyModelsList.add(new DetailedDailyModels(drink.getImg(), drink.getName(), drink.getDsc(), Integer.toString(drink.getRate()), Double.toString(drink.getPrice()), "timimg1"));
+            }
             dailyAdapter.notifyDataSetChanged();
 
         }

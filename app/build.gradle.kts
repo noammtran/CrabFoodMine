@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -41,8 +42,15 @@ dependencies {
     implementation(libs.navigation.ui)
     implementation(libs.core)
     implementation(libs.roundedimageview)
+    implementation(libs.firebase.analytics)
+    implementation(libs.firebase.firestore)
+    implementation(libs.firebase.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation("com.makeramen:roundedimageview:2.3.0")
+    implementation ("com.google.code.gson:gson:2.13.2")
+    implementation ("com.squareup.retrofit2:retrofit:3.0.0")
+    implementation ("com.squareup.retrofit2:converter-gson:3.0.0")
+    implementation ("com.squareup.picasso:picasso:2.8")
 }

@@ -3,17 +3,18 @@ package vn.edu.usth.crabfood.models;
 public class CartItem {
     private final String name;
     private final double price;
-    private final int imageResourceId;
+    private final String imageResourceId;
     private int quantity;
     private final float rating; // New field
 
-    public CartItem(String name, double price, int imageResourceId, float rating) {
+    public CartItem(String name, double price, String imageResourceId, float rating) {
         this.name = name;
         this.price = price;
         this.imageResourceId = imageResourceId;
         this.quantity = 1; // Default quantity is 1
         this.rating = rating;
     }
+
 
     public String getName() {
         return name;
@@ -23,7 +24,7 @@ public class CartItem {
         return price;
     }
 
-    public int getImageResourceId() {
+    public String getImageResourceId() {
         return imageResourceId;
     }
 

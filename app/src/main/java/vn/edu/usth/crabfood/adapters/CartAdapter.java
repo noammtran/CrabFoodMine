@@ -10,6 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -45,7 +47,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
         CartItem cartItem = cartItems.get(position);
 
         holder.itemName.setText(cartItem.getName());
-        holder.itemImage.setImageResource(cartItem.getImageResourceId());
+        Picasso.get().load(cartItem.getImageResourceId()).into(holder.itemImage);
         holder.itemQuantity.setText(String.valueOf(cartItem.getQuantity()));
         holder.ratingBar.setRating(cartItem.getRating()); // Set the rating
 

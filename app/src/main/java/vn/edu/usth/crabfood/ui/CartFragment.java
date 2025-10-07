@@ -44,12 +44,6 @@ public class CartFragment extends Fragment implements CartAdapter.CartItemListen
         totalPriceTextView = view.findViewById(R.id.total_price_textview);
         cartRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
-
-        // Add items with ratings
-        CartAdapter.cartItems.add(new CartItem("Delicious Cake", 25000d, R.drawable.cake, 4.5f));
-        CartAdapter.cartItems.add(new CartItem("Classic Hamburger", 25000d, R.drawable.hamburger, 4.0f));
-
-
         CartAdapter cartAdapter = new CartAdapter(this);
         cartRecyclerView.setAdapter(cartAdapter);
 

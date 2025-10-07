@@ -2,21 +2,38 @@ package vn.edu.usth.crabfood.adapters;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import vn.edu.usth.crabfood.ApiHelper;
 import vn.edu.usth.crabfood.R;
+import vn.edu.usth.crabfood.api.ApiService;
+import vn.edu.usth.crabfood.models.Bbq;
+import vn.edu.usth.crabfood.models.Burger;
+import vn.edu.usth.crabfood.models.Drink;
 import vn.edu.usth.crabfood.models.HomeHorModels;
 import vn.edu.usth.crabfood.models.HomeVerModels;
+import vn.edu.usth.crabfood.models.IceCream;
+import vn.edu.usth.crabfood.models.Menu;
+import vn.edu.usth.crabfood.models.Pizza;
+import vn.edu.usth.crabfood.models.Sandwich;
+import vn.edu.usth.crabfood.models.Sausage;
 
 public class HomeHorAdapter extends RecyclerView.Adapter<HomeHorAdapter.ViewHolder>{
 
@@ -24,9 +41,11 @@ public class HomeHorAdapter extends RecyclerView.Adapter<HomeHorAdapter.ViewHold
     Activity activity;
     ArrayList<HomeHorModels> list;
 
+
     boolean check = true;
     boolean select = true;
-    int row_index = -1;
+    int row_index = 0;
+    ArrayList<Bbq> bbq;
 
     public HomeHorAdapter(UpdateVerticalRec updateVerticalRec, Activity activity, ArrayList<HomeHorModels> list) {
         this.updateVerticalRec = updateVerticalRec;
@@ -43,16 +62,19 @@ public class HomeHorAdapter extends RecyclerView.Adapter<HomeHorAdapter.ViewHold
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
 
-        holder.imageView.setImageResource(list.get(position).getImage());
+
+        //Picasso.get().load(bbq.get(randomNum).getImg()).into(imageView);
+        Picasso.get().load(list.get(position).getImage()).into(holder.imageView);
+        //holder.imageView.setImageResource(list.get(position).getImage());
         holder.name.setText(list.get(position).getName());
+
 
         if (check) {
             ArrayList<HomeVerModels> homeVerModels = new ArrayList<>();
-            homeVerModels.add(new HomeVerModels(R.drawable.ic_pizza1, "Pizza 1", "10:00-23:00", "4.9", "Min - $35"));
-            homeVerModels.add(new HomeVerModels(R.drawable.ic_pizza2, "Pizza 2", "10:00-23:00", "4.9", "Min - $35"));
-            homeVerModels.add(new HomeVerModels(R.drawable.ic_pizza3, "Pizza 3", "10:00-23:00", "4.9", "Min - $35"));
-            homeVerModels.add(new HomeVerModels(R.drawable.ic_pizza4, "Pizza 4", "10:00-23:00", "4.9", "Min - $35"));
-
+            for (Pizza pizza: ApiHelper.menu.getPizzas())
+            {
+                homeVerModels.add(new HomeVerModels(pizza.getImg(), pizza.getName(), "10:00-23:00", Integer.toString(pizza.getRate()), Double.toString(pizza.getPrice()), pizza.getDsc()));
+            }
             updateVerticalRec.callBack(position, homeVerModels);
             check = false;
         }
@@ -66,45 +88,44 @@ public class HomeHorAdapter extends RecyclerView.Adapter<HomeHorAdapter.ViewHold
                    if (position == 0){
                        ArrayList<HomeVerModels> homeVerModels = new ArrayList<>();
 
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_pizza1,"Pizza 1","10:00-23:00","4.9","Min - $35"));
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_pizza2,"Pizza 2","10:00-23:00","4.9","Min - $35"));
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_pizza3,"Pizza 3","10:00-23:00","4.9","Min - $35"));
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_pizza4,"Pizza 4","10:00-23:00","4.9","Min - $35"));
+                       for (Pizza pizza: ApiHelper.menu.getPizzas())
+                       {
+                           homeVerModels.add(new HomeVerModels(pizza.getImg(), pizza.getName(), pizza.getDsc(), Integer.toString(pizza.getRate()), Double.toString(pizza.getPrice()), pizza.getDsc()));
+                       }
 
                        updateVerticalRec.callBack(position, homeVerModels);
                    } else if (position == 1) {
 
                        ArrayList<HomeVerModels> homeVerModels = new ArrayList<>();
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_burger1,"Burger 1","10:00-23:00","4.9","Min - $35"));
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_burger2,"Burger 2","10:00-23:00","4.9","Min - $35"));
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_burger3,"Burger 3","10:00-23:00","4.9","Min - $35"));
-
+                       for (Burger burger: ApiHelper.menu.getBurgers())
+                       {
+                           homeVerModels.add(new HomeVerModels(burger.getImg(), burger.getName(), burger.getDsc(), Integer.toString(burger.getRate()), Double.toString(burger.getPrice()), burger.getDsc()));
+                       }
 
                        updateVerticalRec.callBack(position, homeVerModels);
                    } else if (position == 2) {
                        ArrayList<HomeVerModels> homeVerModels = new ArrayList<>();
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_french_fries1,"French fries 1","10:00-23:00","4.9","Min - $35"));
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_french_fries2,"French fries 2","10:00-23:00","4.9","Min - $35"));
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_french_fries3,"French fries 3","10:00-23:00","4.9","Min - $35"));
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_french_fries4,"French fries 4","10:00-23:00","4.9","Min - $35"));
-
+                       //fries
+                       for (Sausage sausage: ApiHelper.menu.getSausages())
+                       {
+                           homeVerModels.add(new HomeVerModels(sausage.getImg(), sausage.getName(), sausage.getDsc(), Integer.toString(sausage.getRate()), Double.toString(sausage.getPrice()), sausage.getDsc()));
+                       }
 
                        updateVerticalRec.callBack(position, homeVerModels);
                    } else if (position == 3) {
                        ArrayList<HomeVerModels> homeVerModels = new ArrayList<>();
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_ice_cream1,"Ice cream 1","10:00-23:00","4.9","Min - $35"));
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_ice_cream2,"Ice cream 2","10:00-23:00","4.9","Min - $35"));
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_ice_cream3,"Ice cream 3","10:00-23:00","4.9","Min - $35"));
-
+                       for (IceCream iceCream: ApiHelper.menu.getIcecream())
+                       {
+                           homeVerModels.add(new HomeVerModels(iceCream.getImg(), iceCream.getName(), iceCream.getDsc(), Integer.toString(iceCream.getRate()), Double.toString(iceCream.getPrice()), iceCream.getDsc()));
+                       }
 
                         updateVerticalRec.callBack(position, homeVerModels);
                    } else if (position == 4) {
                        ArrayList<HomeVerModels> homeVerModels = new ArrayList<>();
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_sandwich1,"Sandwich 1","10:00-23:00","4.9","Min - $35"));
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_sandwich2,"Sandwich 2","10:00-23:00","4.9","Min - $35"));
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_sandwich3,"Sandwich 3","10:00-23:00","4.9","Min - $35"));
-                       homeVerModels.add(new HomeVerModels(R.drawable.ic_sandwich4,"Sandwich 4","10:00-23:00","4.9","Min - $35"));
-
+                       for (Sandwich sandwich: ApiHelper.menu.getSandwiches())
+                       {
+                           homeVerModels.add(new HomeVerModels(sandwich.getImg(), sandwich.getName(), sandwich.getDsc(), Integer.toString(sandwich.getRate()), Double.toString(sandwich.getPrice()), sandwich.getDsc()));
+                       }
 
                        updateVerticalRec.callBack(position, homeVerModels);
 
