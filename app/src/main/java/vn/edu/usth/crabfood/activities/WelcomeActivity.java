@@ -11,6 +11,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -18,8 +22,14 @@ import vn.edu.usth.crabfood.ApiHelper;
 import vn.edu.usth.crabfood.R;
 import vn.edu.usth.crabfood.api.ApiService;
 import vn.edu.usth.crabfood.models.Menu;
+import vn.edu.usth.crabfood.utils.MenuSanitizer;
 
 public class WelcomeActivity extends AppCompatActivity {
+
+    private static final String TAG = "WelcomeActivity";
+    private static final String IMAGE_VALIDATION_TAG = "MenuImageValidation";
+
+    private final ExecutorService imageValidationExecutor = Executors.newSingleThreadExecutor();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,13 +41,35 @@ public class WelcomeActivity extends AppCompatActivity {
 
             @Override
             public void onResponse(Call<Menu> call, Response<Menu> response) {
-                Log.e("lmao", "thanhcong");
-                ApiHelper.menu = response.body();
+                if (!response.isSuccessful() || response.body() == null) {
+                    Log.w(TAG, "Menu request completed without usable data.");
+                    return;
+                }
+
+                Menu menu = response.body();
+                imageValidationExecutor.execute(() -> {
+                    MenuSanitizer.SanitizationResult result = MenuSanitizer.sanitize(menu);
+                    ApiHelper.menu = result.getMenu();
+
+                    List<String> invalidUrls = result.getInvalidImageUrls();
+                    ApiHelper.invalidImageUrls.clear();
+                    ApiHelper.invalidImageUrls.addAll(invalidUrls);
+
+                    if (!invalidUrls.isEmpty()) {
+                        Log.w(IMAGE_VALIDATION_TAG, "Removed " + invalidUrls.size() +
+                                " menu items with unreachable image URLs.");
+                        for (String invalidUrl : invalidUrls) {
+                            Log.w(IMAGE_VALIDATION_TAG, "Unreachable image URL: " + invalidUrl);
+                        }
+                    } else {
+                        Log.i(IMAGE_VALIDATION_TAG, "All image URLs returned successful responses.");
+                    }
+                });
             }
 
             @Override
             public void onFailure(Call<Menu> call, Throwable t) {
-                Log.e("lmao", "ngudan");
+                Log.e(TAG, "Failed to fetch menu from API.", t);
             }
         });
 
@@ -48,6 +80,12 @@ public class WelcomeActivity extends AppCompatActivity {
         });
 
 
+    }
+
+    @Override
+    protected void onDestroy() {
+        imageValidationExecutor.shutdownNow();
+        super.onDestroy();
     }
 
     public void Login(View view)
