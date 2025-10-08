@@ -1,0 +1,1306 @@
+{
+    "total": 1455,
+    "failed_count": 254,
+    "failures": {
+        "bbqs": [
+            {
+                "id": "barbeque-Sampler-for-8",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110287/barbeque-sampler-for-4-6.edb4e60564852c9d0227634c31fab279.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "235203-blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/113814/blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo.a95a3e632ae324f719738a2a5c1dff6e.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "whole-brisket-sausage-texas-barbecue-bbq-sauce",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131846/whole-brisket-sausage-texas-barbecue-bbq-sauce.ffb470cab2f454fd848faa5dddfe65f5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "17796-mighty-quinns-bbq-sampler-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134182/mighty-quinns-bbq-sampler-pack.1bfe4a0665edc565756f5241bf25840e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "bbq-sides-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133014/bbq-sides-4-pack.64fe417f2fda9ad40fb4034cf416a91e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "mesquite-smoked-peppered-beef-tenderloin",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/99462/mesquite-smoked-peppered-beef-tenderloin.5c314418a1f75c7057eed686e2fad46f.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "guys-bbq-pulled-pork-trash-can-nachos",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/115312/guys-bbq-pulled-pork-trash-can-nachos.5783c0f7459bfc0adbbcf063edced3fb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "backyard-bbq-picnic-for-4-6",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134212/backyard-bbq-picnic-for-6.2be8d9286f622c9cfe873c6b728b3175.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "barbeque-assortment-for-12-16",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132527/barbeque-feast-for-8-12.33d57b4d33aee93b40c12c876061b0a6.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ],
+        "best-foods": [
+            {
+                "id": "bo-ssam-dinner-for-4-6",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110906/bo-ssam-dinner-for-4.c4a32e8801e2f0283e0565bbe8493149.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "legendary-seafood-gumbo",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133100/legendary-seafood-gumbo.a4010efb8ba0569ff59d68c3723f0963.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pork-buns-12-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110984/pork-buns-12-pack.67a379b014b23c7fd944ab48b9e720f6.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "gramercy-tavern-mushroom-lasagna-for-4",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134704/gramercy-tavern-mushroom-lasagna-4-pack.88c671dec184d8bee908d6f5d8d860f9.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "butchers-feast-for-4",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/104628/butchers-feast-for-4.cf40ca583a3bc2de78ac6355ee4b2995.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "whole-peking-duck-kit-for-4",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132862/decoys-whole-peking-duck-for-4.36f80dd5235f5495f279ed8765c33167.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pasta-dinner-gift-basket",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/111490/pasta-sauce-gift-basket.e7d2b1afaeef767b7327843716d15203.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "shiitake-mushroom-buns-12-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110987/shiitake-mushroom-buns-12-pack.449e51af13ae6204f3c2914355d427ac.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "bo-ssam-dinner-for-8-10",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/111005/bo-ssam-dinner-for-4-6.20cb5b3dede7ecca90c888aadc93567f.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "best-seller-ramen-kits-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/119444/best-seller-ramen-kits-for-4.6946ea916af35904079d82208a0cb7e2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "redfarm-signature-sampler-for-3-4",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131850/redfarm-sampler-for-3-4.b47a4dad3b06d719e9fc17380238afd2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ],
+        "breads": [
+            {
+                "id": "artisanal-bread-choose-your-own-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132426/bread-choose-your-own-4-pack.78f96938f1a3a5bc6a7fefa564bf878c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "savory-bread-assortment-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/116300/savory-bread-assortment-4-pack.3f088d3d463da68582c2ea93a7c1d547.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "bread-and-roses-care-package",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132930/bread-and-roses-care-package.c60ba288ef2a179a3d6da325d33ff402.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "choose-your-own-gourmet-breadsticks-16-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90781/choose-your-own-gourmet-breadsticks-16-pack.887e7e2eb8f22d3cd4d89f1a11affd5e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "choose-your-own-gourmet-breadsticks-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90702/choose-your-own-gourmet-breadsticks-4-pack.17986d6fdad9457523c4276d09ffd346.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "essa-bagel-bakers-dozen-kosher-buy-1-get-1-free",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/100871/essa-bagel-dozen-kosher-buy-1-get-1-free.9a369a3f64e48283b57e929a82a67565.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "double-chocolate-babka",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134184/double-chocolate-babka.e7bca1ea0d2327e31179841ef74a4611.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "bestselling-banana-bread-6-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/99486/bestselling-mini-loaves-6-pack.c48bdbf6c2584b921841f50db863f438.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "choose-your-own-bagel-2-dozen",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/100125/choose-your-own-bagel-2-dozen.2bff022a30852d49a00f049e23536b97.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ],
+        "burgers": [
+            {
+                "id": "le-big-matt-kit-for-6",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131436/le-big-matt-kit-for-6.1ddae6e382bb3218eeb0fd5247de115a.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "21-usda-prime-burgers-pack-of-18-8oz-each",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133009/usda-prime-burgers-pack-of-18-8oz-each.274c67f15aa1c0b210dbf51801706670.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "brisket-burger-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/124922/short-rib-burger-blend.6275c3ffad67f0e93de4eafbc4f809df.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "bfbsr-short-rib-burger-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132398/short-rib-burger-blend.586f10c35edd4d7c6e9cfa41e3b2d0d2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ],
+        "chocolates": [
+            {
+                "id": "signature-chocolate-collection-25-piece",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106318/large-signature-collection.6f21146f2b1945d80f7931d69b763ba7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "20482-chocolate-truffle-cake",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131261/chocolate-truffle-cake.289d1e58e4f0ca2dd39568fba9c17e91.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "signature-macarons-chocolates-16-pieces",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132333/signature-macarons-chocolates-16-pieces.6072c1e13db3f2ebca89db228f421715.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "milk-chocolate-turtle-gophers-gift-box-of-24",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/97018/milk-chocolate-turtle-gophers-gift-box-of-24.9e12dafbdf9401faa776c2389c05b850.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "dark-chocolate-truffle-collection-16-pieces",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131532/dark-chocolate-truffle-collection-16-pieces.4109f4f80d9d9ddf81d7b704424245f8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "k-m-chocolate-sampler-gift-box",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/97479/k-m-chocolate-sampler-gift-box.e29912ba4410a090b1659cbe8aa8e2fa.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chocolate-fudge-cake",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/89476/chocolate-fudge-cake.1b255e0cd6b684b34d9e8f7c3f0fbb3a.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "double-chocolate-cake",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131604/double-chocolate-cake.bff63e243145fe04ec8a384d1bc1926c.gif?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "award-winning-chocolate-4-layer-cake",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90005/award-winning-chocolate-4-layer-cake.b1667fe724c35e1461aad64bc1f982d3.jpeg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "signature-chocolate-collection-15-pieces",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/123407/signature-chocolate-collection-15-pieces.a2e79d99347af6d6247636f08083167c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "signature-chocolate-collection-12-piece",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106341/medium-signature-chocolate-box.51543f5d16b82434582d85c9c40b201c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "dark-chocolate-truffle-collection-9-pieces",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133303/dark-chocolate-truffle-collection-9-pieces.4135c2ff34f76c89830c15e6048afd50.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "double-chocolate-babka",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134184/double-chocolate-babka.e7bca1ea0d2327e31179841ef74a4611.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "milk-chocolate-truffle-collection-16-pieces",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/81236/milk-chocolate-truffle-collection-16-pieces.be97988ab2fff3c32ed9f7c2187b33c7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "signature-chocolate-collection-8-pieces",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132095/signature-chocolate-collection-8-pieces.d253c3253a84123d64a4792c9e4363b5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "double-chocolate-almond-fudge-cookies-dozen",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134450/double-chocolate-almond-fudge-cookies-dozen.df65a64c34daa39545f013ceee53a4f8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "14913-chocolate-bees",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132418/chocolate-bees-with-caramelized-honey-center.eac0fef67d17204cc38d6742b7f36115.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "heart-shaped-chocolate-pizza-with-mallet",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/98003/heart-shaped-chocolate-pizza-with-mallet.58490f28e404729412d52e0b224f20cb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chocolate-mille-crepes-cake",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/126479/chocolate-mille-crepes-cake.3ed3d988314b5f42fcc3d24095f2105d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chocolate-chip-cookie-cake",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/118296/chocolate-chip-cookie-cake.6d422e0c37ada9eef8032a3fda4ed7b3.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "double-chocolate-almond-fudge-chocolate-chip-cookie-dozen",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106645/double-chocolate-almond-fudge-chocolate-chip-cookie-dozen.9581815c5f57c01c26353c8eb52a6a08.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ],
+        "desserts": [
+            {
+                "id": "world-famous-banana-pudding-party-sized",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/84893/world-famous-banana-pudding-bowl-64-oz.85af650f8f51512f8f3181a11d6587d6.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "smores-variety-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/78037/smores-variety-pack.86cf47d40c0c3508ce14d2659b3f99d4.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "magnolia-banana-pudding-explore",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/136779/Magnolia-NEW-BP-Pudding-Cup.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "double-chocolate-babka",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134184/double-chocolate-babka.e7bca1ea0d2327e31179841ef74a4611.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "cheesecake-macarons-24-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/91242/cheesecake-macarons-24-pack.98311118ad15fcff82a74763d1a8ed32.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "brownie-explosion-cheesecake",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/86905/plain-cheesecake.0ff81b367c16fb722c66d6d1deab0fcd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "smores-cookie-12-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133252/smores-cookie-12-pack.2fefcfed46bc853bc16b28421b935e72.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "17228-4-pint-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/71773/choose-your-own-boozy-ice-cream-4-pints.cecb4c1a4d29b16b44c2b88fa59b3e86.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "cheesecake-macarons-12-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/107554/cheesecake-macarons-12-pack.e6d5a23285fc17c227aab7c574163077.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ],
+        "drinks": [
+            {
+                "id": "cold-brew-concentrate-variety-6-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134399/cold-brew-concentrate-variety-6-pack.ee2c1ff6e21556a824d07fcd6dc96682.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "dels-x-iggys-frozen-lemonade-mix",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/136231/Iggys-Del-Lemonade-Mix-Product-1.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ],
+        "fried-chicken": [
+            {
+                "id": "nashville-hot-chicken-family-meal-for-4",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/103169/nashville-hot-chicken-family-meal-for-4.43a0ea9ae1b7663ff18d82f4930fa561.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "korean-fried-chicken-kit-for-4",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/108361/korean-fried-chicken-kit-for-4.4c354ab17c40cd78402d4697b1e075e7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pappys-ribs-and-chicken-dinner-for-8",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106948/pappys-ribs-and-chicken-dinner-for-8.904cebbd327940da15399e0608dffa55.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "korean-bbq-sausage-fried-chicken-kit-for-8",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/108394/korean-bbq-sausage-fried-chicken-kit-for-8.8d3be80287dda24f8153f28e9efab6a4.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "235203-blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/113814/blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo.a95a3e632ae324f719738a2a5c1dff6e.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chicken-wings-choose-your-own-50-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110867/chicken-wings-choose-your-own-50-pack.cd226df19f0bb4af94ab5f69dc781083.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "backyard-barbecue-chicken",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/105379/backyard-barbecue-chicken.321a1babf487d24419a8c3947a94a20b.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chicken-wings-choose-your-own-100-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110907/chicken-wings-choose-your-own-100-pack.fbeb35b46643e99da6ffcf9e14e04b2c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ],
+        "ice-cream": [
+            {
+                "id": "23952-nancys-italian-gelato-gift-box",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90388/nancys-italian-gelato-gift-box.d44dba927ca67daf7765e0c3a59f3587.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "237283342-choose-your-own-frozen-custard-6-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133888/choose-your-own-frozen-custard-6-pack.f13e3415fd09547371a184d04166ff77.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "17228-4-pint-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/71773/choose-your-own-boozy-ice-cream-4-pints.cecb4c1a4d29b16b44c2b88fa59b3e86.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "ice-cream-choose-your-own-4-pints",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/107316/ice-cream-choose-your-own-4-pints.22c48c4004a36083da64a69635076e6e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "mini-ice-cream-sandwiches-choose-your-own-16-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134845/mini-ice-cream-sandwiches-choose-your-own-16-pack.4f75836908c8ce41789c4af346bfa9d2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "artisan-ice-cream-choose-your-own-6-pints",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131929/artisan-ice-cream-choose-your-own-6-pints.fc029dfaf6c0b6143ed09f3dc6f72745.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ],
+        "pizzas": [
+            {
+                "id": "2-lou-malnatis-deep-dish-pizzas",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/97981/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "6-lou-malnatis-deep-dish-pizzas",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106829/6-lou-malnatis-deep-dish-pizzas.f59993181da5d295668c8a6fb856055e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "choose-your-own-detroit-style-pizza-3-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132973/detroit-style-pizza-choose-your-own-3-pack.6b6f4909ffd4066d5471e70eac5c3d89.jpeg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "4-lou-malnatis-deep-dish-pizzas",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106828/4-lou-malnatis-deep-dish-pizzas.8c79eb7506b5752ab3387d8174246b17.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "17408-coal-oven-margherita-pizza-pie-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/72343/coal-oven-margherita-pizza-pie-4-pack.c5944293e17b40f2659562179b493a10.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "15464-detroit-style-pizza-squares-choose-your-own-3-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/112202/detroit-style-pizza-squares-choose-your-own-3-pack.75f7714d9a81fb455f7400086e4195bf.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "17409-coal-oven-margherita-pizza-slices-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134133/coal-oven-margherita-pizza-8-slices.a6e3c0e43bf45c956014f064e25735cd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chicago-deep-dish-pizza-3-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/101630/chicago-deep-dish-pizza-choose-your-own-3-pack.b795d4f915c116ba9e7f2e7951e79ad0.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "signature-sampler",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134789/signature-sampler-serves-10.2d7375635d9152e3401a0daacd40f648.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "choose-your-own-6-pizzas",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/82735/choose-your-own-6-pizzas.5e9950eb1a06f3b87543f867506511b2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "detroit-style-pizza-best-seller-3-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131672/detroit-style-pizza-best-seller-3-pack.f56562a340b3ada0a8a571fa80020304.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chicago-deep-dish-pizza-2-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/102327/chicago-deep-dish-pizza-2-pack.e5052999d72a3737ba464a03d51b33dc.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ],
+        "porks": [
+            {
+                "id": "pork-buns-12-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110984/pork-buns-12-pack.67a379b014b23c7fd944ab48b9e720f6.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pulled-pork-and-chopped-beef-brisket-combo",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/115332/pulled-pork-and-chopped-beef-brisket-combo.402da09e367972eadca0f8f5150bf2d1.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "bo-ssam-dinner-for-4-6",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110906/bo-ssam-dinner-for-4.c4a32e8801e2f0283e0565bbe8493149.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "guys-bbq-pulled-pork-trash-can-nachos",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/115312/guys-bbq-pulled-pork-trash-can-nachos.5783c0f7459bfc0adbbcf063edced3fb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "18041-ribs-and-pulled-pork-dinner-for-8",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/73762/pappys-ribs-and-pulled-pork-dinner-for-8.b1ebab4ba20903bea0fc8ad73df29ddb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "18041432432-pulled-pork-pack-serves-12-15",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/73798/pappys-pulled-pork-pack-serves-12-15.1960957d09163524732958e85c5441f7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "homemade-pork-buns-18-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131675/homemade-pork-buns-18-pack.b3a41e86a48c8c484a3f5e87aeedd511.jpeg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pulled-pork-and-baby-back-ribs-combo",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/115360/pulled-pork-and-baby-back-ribs-combo.65b3eb24682385c2f3b8579b57229b84.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "17th-street-bbq-pulled-pork-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90777/17th-street-bbq-pulled-pork-pack.850b9b9b4d2fe7b2652849b1a1a06f9b.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chicharron-en-salsa-verde-pork-belly-in-salsa-verde-for-2",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/112609/chicharron-en-salsa-verde-pork-belly-in-salsa-verde-for-2.18fde7f6fbdc6ab6d905087209e0afa9.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ],
+        "sandwiches": [
+            {
+                "id": "15504-original-muffuletta-sandwich-2-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/68615/original-muffuletta-sandwich-2-pack.ee9a97c691374b6866ea5b7083dd46d5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "the-bomb-sandwich-for-4",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/85102/the-bomb-sandwich-for-4.78f5f65f8b94d6b3c81f70761b8d0f87.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "favorite-sloppy-joe-sandwich",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/67768/new-jersey-sloppy-joe-sandwich-feeds-3.b866e4c84e09ad65cb8c6b9f4949ec7d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "15504-original-muffuletta-sandwich-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133232/original-muffuletta-sandwich-3-pack.2b00693e49ef277bc2b69810709d8fe8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "the-original-french-dip-sandwich-6-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/85861/the-original-french-dip-6-pack.a52e10de7346a8330f234e2310015a05.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "23728-beef-on-weck-sandwich-kit-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/89891/beef-on-weck-sandwich-kit-4-pack.2e34382035f62d683dda73b11cfbe4e7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "favorite-sloppy-joe-sandwich-3-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132713/new-jersey-sloppy-joe-3-pack-serves-9.c5ef8ff07dccdd95de92621c72a831cb.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pats-original-philly-cheesesteak-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/87749/pats-original-philly-cheesesteak-4-pack.fe6d8af186d93848f9a5090118fe8b46.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "23699-meatball-sandwich-kit-6-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/89816/meatball-sandwich-kit-6-pack.f4f05520fe4d25f90520ffe80e543f83.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chaps-pit-beef-sandwich-kit-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/96174/chaps-signature-pit-beef-sandwich-kit-8-pack.4c8dc2a9b8a1b86d7413cb7eb0b53004.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "sandwich-best-sellers-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134378/italian-sandwich-kit-best-sellers-8-pack.7e6c21313e048070dc76d26a6ef1ef5d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "237282-beef-on-weck-sandwich-kit-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/89888/beef-on-weck-sandwich-kit-8-pack.7c49b1a9932ebd017c1d276276349617.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "blackstone-reuben-sandwich-kit-for-4",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/86691/blackstone-reuben-sandwich-kit-for-4.05b9a82b798890ad54c874c996a78ac9.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "favorite-sloppy-joe-sandwich-2-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/67914/new-jersey-sloppy-joe-2-pack-feeds-6.6eb8ebc6b3227ce05d3d553e5a6e7e53.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "18040-new-jersey-sloppy-joe-6-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/73824/new-jersey-sloppy-joe-6-pack.8f594005c4a06d35dafc96371608b97d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ],
+        "sausages": [
+            {
+                "id": "6-sausage-sampler-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/79253/sausage-sampler-pack-serves-10-12.e2d63273c29b923ca4ad80cf63669b12.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "korean-bbq-sausage-kit-for-8",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132174/korean-bbq-sausage-combo-kit-for-8.8e1946d141ce5cd1e3205c6f0fed21d2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "16124-sausage-tomato-fennel",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132371/sausage-tomato-fennel-pie.cc3152ebcd1c39b3a9055939d84ae580.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "gramercy-tavern-smoked-kielbasa-6-Pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/92800/gramercy-tavern-smoked-kielbasa.c2d5882bf3ed785b85b348f1fe5717a7.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "choose-your-own-sausages-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132802/choose-your-own-sausages-8-pack.9d02550f44b749006c3c29d8aa7a31a5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ],
+        "steaks": [
+            {
+                "id": "2-peter-luger-steak-pack-b",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131920/peter-luger-steak-pack-b.9feb0300e6be2dfecfa314f2006a2183.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "wagyu-filet-mignon-2-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/107003/wagyu-filet-mignon-2-pack.5da42476f7d1b7e7cfe58b4d054e6861.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "mesquite-smoked-peppered-beef-tenderloin",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/99462/mesquite-smoked-peppered-beef-tenderloin.5c314418a1f75c7057eed686e2fad46f.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "wagyu-coulotte-steak-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/103374/wagyu-coulotte-10-oz.8f1a8f4075160241d9698d3f4b1bf488.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "13-peter-luger-steak-pack-a",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133140/peter-luger-steak-pack-a.e8f3bb163811e5ffcd60a5831d32874b.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "world-famous-shrimp-cocktail",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/89041/world-famous-shrimp-cocktail-for-4-6.9e41abca0496dfbd5a9fb2adbffeef88.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chateaubriand-steak-for-2",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/105249/chateaubriand-steak-for-2.2cb9ed7cc3227fd26c455d51ca9745ab.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "16124-steak-mushroom-onion-and-gruyere",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/69598/steak-mushroom-onion-and-gruyere-pie.169cb773b3f53ba330ae18fa0edb0b4c.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pats-original-philly-cheesesteak-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/87749/pats-original-philly-cheesesteak-4-pack.fe6d8af186d93848f9a5090118fe8b46.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "st-elmo-gift-box",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/88901/st-elmo-gift-box.83e4e53934fc6e314b4f3999b9f089af.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pats-original-philly-cheesesteak-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/87773/pats-original-philly-cheesesteak-8-pack.1f350a7bf2852552bf219d6609405c69.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "21-usda-prime-burgers-pack-of-18-8oz-each",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133009/usda-prime-burgers-pack-of-18-8oz-each.274c67f15aa1c0b210dbf51801706670.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ],
+        "our-foods": [
+            {
+                "id": "barbeque-Sampler-for-8",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110287/barbeque-sampler-for-4-6.edb4e60564852c9d0227634c31fab279.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "235203-blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/113814/blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo.a95a3e632ae324f719738a2a5c1dff6e.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "17796-mighty-quinns-bbq-sampler-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134182/mighty-quinns-bbq-sampler-pack.1bfe4a0665edc565756f5241bf25840e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "whole-brisket-sausage-texas-barbecue-bbq-sauce",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131846/whole-brisket-sausage-texas-barbecue-bbq-sauce.ffb470cab2f454fd848faa5dddfe65f5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "bbq-sides-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133014/bbq-sides-4-pack.64fe417f2fda9ad40fb4034cf416a91e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "mesquite-smoked-peppered-beef-tenderloin",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/99462/mesquite-smoked-peppered-beef-tenderloin.5c314418a1f75c7057eed686e2fad46f.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "backyard-bbq-picnic-for-4-6",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134212/backyard-bbq-picnic-for-6.2be8d9286f622c9cfe873c6b728b3175.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "barbeque-assortment-for-12-16",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132527/barbeque-feast-for-8-12.33d57b4d33aee93b40c12c876061b0a6.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "guys-bbq-pulled-pork-trash-can-nachos",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/115312/guys-bbq-pulled-pork-trash-can-nachos.5783c0f7459bfc0adbbcf063edced3fb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "artisanal-bread-choose-your-own-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132426/bread-choose-your-own-4-pack.78f96938f1a3a5bc6a7fefa564bf878c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "bread-and-roses-care-package",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132930/bread-and-roses-care-package.c60ba288ef2a179a3d6da325d33ff402.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "choose-your-own-gourmet-breadsticks-16-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90781/choose-your-own-gourmet-breadsticks-16-pack.887e7e2eb8f22d3cd4d89f1a11affd5e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "savory-bread-assortment-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/116300/savory-bread-assortment-4-pack.3f088d3d463da68582c2ea93a7c1d547.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "essa-bagel-bakers-dozen-kosher-buy-1-get-1-free",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/100871/essa-bagel-dozen-kosher-buy-1-get-1-free.9a369a3f64e48283b57e929a82a67565.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "choose-your-own-gourmet-breadsticks-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90702/choose-your-own-gourmet-breadsticks-4-pack.17986d6fdad9457523c4276d09ffd346.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "double-chocolate-babka",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134184/double-chocolate-babka.e7bca1ea0d2327e31179841ef74a4611.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "bestselling-banana-bread-6-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/99486/bestselling-mini-loaves-6-pack.c48bdbf6c2584b921841f50db863f438.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "vegan-bread-assortment-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132272/vegan-bread-assortment-4-pack.bc6f54dc3a947c3d581a30032ef5a96d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "le-big-matt-kit-for-6",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131436/le-big-matt-kit-for-6.1ddae6e382bb3218eeb0fd5247de115a.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "21-usda-prime-burgers-pack-of-18-8oz-each",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133009/usda-prime-burgers-pack-of-18-8oz-each.274c67f15aa1c0b210dbf51801706670.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "brisket-burger-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/124922/short-rib-burger-blend.6275c3ffad67f0e93de4eafbc4f809df.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "bfbsr-short-rib-burger-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132398/short-rib-burger-blend.586f10c35edd4d7c6e9cfa41e3b2d0d2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "signature-chocolate-collection-25-piece",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106318/large-signature-collection.6f21146f2b1945d80f7931d69b763ba7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "milk-chocolate-turtle-gophers-gift-box-of-24",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/97018/milk-chocolate-turtle-gophers-gift-box-of-24.9e12dafbdf9401faa776c2389c05b850.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "signature-macarons-chocolates-16-pieces",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132333/signature-macarons-chocolates-16-pieces.6072c1e13db3f2ebca89db228f421715.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "20482-chocolate-truffle-cake",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131261/chocolate-truffle-cake.289d1e58e4f0ca2dd39568fba9c17e91.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "k-m-chocolate-sampler-gift-box",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/97479/k-m-chocolate-sampler-gift-box.e29912ba4410a090b1659cbe8aa8e2fa.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "dark-chocolate-truffle-collection-16-pieces",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131532/dark-chocolate-truffle-collection-16-pieces.4109f4f80d9d9ddf81d7b704424245f8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chocolate-fudge-cake",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/89476/chocolate-fudge-cake.1b255e0cd6b684b34d9e8f7c3f0fbb3a.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "signature-chocolate-collection-12-piece",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106341/medium-signature-chocolate-box.51543f5d16b82434582d85c9c40b201c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "award-winning-chocolate-4-layer-cake",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90005/award-winning-chocolate-4-layer-cake.b1667fe724c35e1461aad64bc1f982d3.jpeg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "signature-chocolate-collection-15-pieces",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/123407/signature-chocolate-collection-15-pieces.a2e79d99347af6d6247636f08083167c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "milk-chocolate-truffle-collection-16-pieces",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/81236/milk-chocolate-truffle-collection-16-pieces.be97988ab2fff3c32ed9f7c2187b33c7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "double-chocolate-babka",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134184/double-chocolate-babka.e7bca1ea0d2327e31179841ef74a4611.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "double-chocolate-cake",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131604/double-chocolate-cake.bff63e243145fe04ec8a384d1bc1926c.gif?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "dark-chocolate-truffle-collection-9-pieces",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133303/dark-chocolate-truffle-collection-9-pieces.4135c2ff34f76c89830c15e6048afd50.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "heart-shaped-chocolate-pizza-with-mallet",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/98003/heart-shaped-chocolate-pizza-with-mallet.58490f28e404729412d52e0b224f20cb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "double-chocolate-almond-fudge-cookies-dozen",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134450/double-chocolate-almond-fudge-cookies-dozen.df65a64c34daa39545f013ceee53a4f8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "signature-chocolate-collection-8-pieces",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132095/signature-chocolate-collection-8-pieces.d253c3253a84123d64a4792c9e4363b5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chocolate-mille-crepes-cake",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/126479/chocolate-mille-crepes-cake.3ed3d988314b5f42fcc3d24095f2105d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "14913-chocolate-bees",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132418/chocolate-bees-with-caramelized-honey-center.eac0fef67d17204cc38d6742b7f36115.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "dark-chocolate-salted-caramel-truffles-24-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/120628/dark-chocolate-salted-caramel-truffles-24-pack.d99dbdcd29c4f969f2b67a4092245c0a.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "world-famous-banana-pudding-party-sized",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/84893/world-famous-banana-pudding-bowl-64-oz.85af650f8f51512f8f3181a11d6587d6.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "smores-variety-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/78037/smores-variety-pack.86cf47d40c0c3508ce14d2659b3f99d4.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "magnolia-banana-pudding-explore",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/136779/Magnolia-NEW-BP-Pudding-Cup.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "double-chocolate-babka",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134184/double-chocolate-babka.e7bca1ea0d2327e31179841ef74a4611.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "cheesecake-macarons-24-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/91242/cheesecake-macarons-24-pack.98311118ad15fcff82a74763d1a8ed32.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "brownie-explosion-cheesecake",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/86905/plain-cheesecake.0ff81b367c16fb722c66d6d1deab0fcd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "smores-cookie-12-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133252/smores-cookie-12-pack.2fefcfed46bc853bc16b28421b935e72.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "17228-4-pint-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/71773/choose-your-own-boozy-ice-cream-4-pints.cecb4c1a4d29b16b44c2b88fa59b3e86.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "cheesecake-macarons-12-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/107554/cheesecake-macarons-12-pack.e6d5a23285fc17c227aab7c574163077.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "cold-brew-concentrate-variety-6-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134399/cold-brew-concentrate-variety-6-pack.ee2c1ff6e21556a824d07fcd6dc96682.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "dels-x-iggys-frozen-lemonade-mix",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/136231/Iggys-Del-Lemonade-Mix-Product-1.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "nashville-hot-chicken-family-meal-for-4",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/103169/nashville-hot-chicken-family-meal-for-4.43a0ea9ae1b7663ff18d82f4930fa561.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "korean-fried-chicken-kit-for-4",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/108361/korean-fried-chicken-kit-for-4.4c354ab17c40cd78402d4697b1e075e7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pappys-ribs-and-chicken-dinner-for-8",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106948/pappys-ribs-and-chicken-dinner-for-8.904cebbd327940da15399e0608dffa55.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "korean-bbq-sausage-fried-chicken-kit-for-8",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/108394/korean-bbq-sausage-fried-chicken-kit-for-8.8d3be80287dda24f8153f28e9efab6a4.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "235203-blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/113814/blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo.a95a3e632ae324f719738a2a5c1dff6e.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chicken-wings-choose-your-own-50-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110867/chicken-wings-choose-your-own-50-pack.cd226df19f0bb4af94ab5f69dc781083.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "backyard-barbecue-chicken",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/105379/backyard-barbecue-chicken.321a1babf487d24419a8c3947a94a20b.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "23952-nancys-italian-gelato-gift-box",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90388/nancys-italian-gelato-gift-box.d44dba927ca67daf7765e0c3a59f3587.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "237283342-choose-your-own-frozen-custard-6-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133888/choose-your-own-frozen-custard-6-pack.f13e3415fd09547371a184d04166ff77.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "17228-4-pint-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/71773/choose-your-own-boozy-ice-cream-4-pints.cecb4c1a4d29b16b44c2b88fa59b3e86.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "ice-cream-choose-your-own-4-pints",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/107316/ice-cream-choose-your-own-4-pints.22c48c4004a36083da64a69635076e6e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "mini-ice-cream-sandwiches-choose-your-own-16-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134845/mini-ice-cream-sandwiches-choose-your-own-16-pack.4f75836908c8ce41789c4af346bfa9d2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "artisan-ice-cream-choose-your-own-6-pints",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131929/artisan-ice-cream-choose-your-own-6-pints.fc029dfaf6c0b6143ed09f3dc6f72745.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "2-lou-malnatis-deep-dish-pizzas",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/97981/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "6-lou-malnatis-deep-dish-pizzas",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106829/6-lou-malnatis-deep-dish-pizzas.f59993181da5d295668c8a6fb856055e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "choose-your-own-detroit-style-pizza-3-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132973/detroit-style-pizza-choose-your-own-3-pack.6b6f4909ffd4066d5471e70eac5c3d89.jpeg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "4-lou-malnatis-deep-dish-pizzas",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106828/4-lou-malnatis-deep-dish-pizzas.8c79eb7506b5752ab3387d8174246b17.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "15464-detroit-style-pizza-squares-choose-your-own-3-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/112202/detroit-style-pizza-squares-choose-your-own-3-pack.75f7714d9a81fb455f7400086e4195bf.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "17408-coal-oven-margherita-pizza-pie-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/72343/coal-oven-margherita-pizza-pie-4-pack.c5944293e17b40f2659562179b493a10.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "17409-coal-oven-margherita-pizza-slices-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134133/coal-oven-margherita-pizza-8-slices.a6e3c0e43bf45c956014f064e25735cd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "choose-your-own-6-pizzas",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/82735/choose-your-own-6-pizzas.5e9950eb1a06f3b87543f867506511b2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chicago-deep-dish-pizza-3-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/101630/chicago-deep-dish-pizza-choose-your-own-3-pack.b795d4f915c116ba9e7f2e7951e79ad0.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "signature-sampler",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134789/signature-sampler-serves-10.2d7375635d9152e3401a0daacd40f648.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "detroit-style-pizza-best-seller-3-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131672/detroit-style-pizza-best-seller-3-pack.f56562a340b3ada0a8a571fa80020304.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pork-buns-12-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110984/pork-buns-12-pack.67a379b014b23c7fd944ab48b9e720f6.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pulled-pork-and-chopped-beef-brisket-combo",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/115332/pulled-pork-and-chopped-beef-brisket-combo.402da09e367972eadca0f8f5150bf2d1.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "bo-ssam-dinner-for-4-6",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110906/bo-ssam-dinner-for-4.c4a32e8801e2f0283e0565bbe8493149.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "18041432432-pulled-pork-pack-serves-12-15",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/73798/pappys-pulled-pork-pack-serves-12-15.1960957d09163524732958e85c5441f7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "guys-bbq-pulled-pork-trash-can-nachos",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/115312/guys-bbq-pulled-pork-trash-can-nachos.5783c0f7459bfc0adbbcf063edced3fb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "18041-ribs-and-pulled-pork-dinner-for-8",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/73762/pappys-ribs-and-pulled-pork-dinner-for-8.b1ebab4ba20903bea0fc8ad73df29ddb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "homemade-pork-buns-18-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131675/homemade-pork-buns-18-pack.b3a41e86a48c8c484a3f5e87aeedd511.jpeg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pulled-pork-and-baby-back-ribs-combo",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/115360/pulled-pork-and-baby-back-ribs-combo.65b3eb24682385c2f3b8579b57229b84.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "17th-street-bbq-pulled-pork-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90777/17th-street-bbq-pulled-pork-pack.850b9b9b4d2fe7b2652849b1a1a06f9b.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chicharron-en-salsa-verde-pork-belly-in-salsa-verde-for-2",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/112609/chicharron-en-salsa-verde-pork-belly-in-salsa-verde-for-2.18fde7f6fbdc6ab6d905087209e0afa9.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "15504-original-muffuletta-sandwich-2-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/68615/original-muffuletta-sandwich-2-pack.ee9a97c691374b6866ea5b7083dd46d5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "the-bomb-sandwich-for-4",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/85102/the-bomb-sandwich-for-4.78f5f65f8b94d6b3c81f70761b8d0f87.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "favorite-sloppy-joe-sandwich",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/67768/new-jersey-sloppy-joe-sandwich-feeds-3.b866e4c84e09ad65cb8c6b9f4949ec7d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "15504-original-muffuletta-sandwich-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133232/original-muffuletta-sandwich-3-pack.2b00693e49ef277bc2b69810709d8fe8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "the-original-french-dip-sandwich-6-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/85861/the-original-french-dip-6-pack.a52e10de7346a8330f234e2310015a05.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "23728-beef-on-weck-sandwich-kit-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/89891/beef-on-weck-sandwich-kit-4-pack.2e34382035f62d683dda73b11cfbe4e7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "favorite-sloppy-joe-sandwich-3-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132713/new-jersey-sloppy-joe-3-pack-serves-9.c5ef8ff07dccdd95de92621c72a831cb.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "23699-meatball-sandwich-kit-6-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/89816/meatball-sandwich-kit-6-pack.f4f05520fe4d25f90520ffe80e543f83.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pats-original-philly-cheesesteak-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/87749/pats-original-philly-cheesesteak-4-pack.fe6d8af186d93848f9a5090118fe8b46.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chaps-pit-beef-sandwich-kit-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/96174/chaps-signature-pit-beef-sandwich-kit-8-pack.4c8dc2a9b8a1b86d7413cb7eb0b53004.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "sandwich-best-sellers-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134378/italian-sandwich-kit-best-sellers-8-pack.7e6c21313e048070dc76d26a6ef1ef5d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "237282-beef-on-weck-sandwich-kit-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/89888/beef-on-weck-sandwich-kit-8-pack.7c49b1a9932ebd017c1d276276349617.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "blackstone-reuben-sandwich-kit-for-4",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/86691/blackstone-reuben-sandwich-kit-for-4.05b9a82b798890ad54c874c996a78ac9.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "18040-new-jersey-sloppy-joe-6-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/73824/new-jersey-sloppy-joe-6-pack.8f594005c4a06d35dafc96371608b97d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "favorite-sloppy-joe-sandwich-2-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/67914/new-jersey-sloppy-joe-2-pack-feeds-6.6eb8ebc6b3227ce05d3d553e5a6e7e53.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "6-sausage-sampler-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/79253/sausage-sampler-pack-serves-10-12.e2d63273c29b923ca4ad80cf63669b12.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "choose-your-own-sausages-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131792/choose-your-own-sausages-4-pack.06d9c63b51122e2d81d5ad17941efa1a.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "korean-bbq-sausage-kit-for-8",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132174/korean-bbq-sausage-combo-kit-for-8.8e1946d141ce5cd1e3205c6f0fed21d2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "16124-sausage-tomato-fennel",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132371/sausage-tomato-fennel-pie.cc3152ebcd1c39b3a9055939d84ae580.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "gramercy-tavern-smoked-kielbasa-6-Pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/92800/gramercy-tavern-smoked-kielbasa.c2d5882bf3ed785b85b348f1fe5717a7.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "choose-your-own-sausages-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132802/choose-your-own-sausages-8-pack.9d02550f44b749006c3c29d8aa7a31a5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "15813-sweet-italian-sausage",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/68875/sweet-italian-sausage.177aef69f5f45770ed57c0797ee7a284.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "2-peter-luger-steak-pack-b",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131920/peter-luger-steak-pack-b.9feb0300e6be2dfecfa314f2006a2183.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "wagyu-filet-mignon-2-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/107003/wagyu-filet-mignon-2-pack.5da42476f7d1b7e7cfe58b4d054e6861.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "mesquite-smoked-peppered-beef-tenderloin",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/99462/mesquite-smoked-peppered-beef-tenderloin.5c314418a1f75c7057eed686e2fad46f.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "wagyu-coulotte-steak-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/103374/wagyu-coulotte-10-oz.8f1a8f4075160241d9698d3f4b1bf488.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "13-peter-luger-steak-pack-a",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133140/peter-luger-steak-pack-a.e8f3bb163811e5ffcd60a5831d32874b.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "chateaubriand-steak-for-2",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/105249/chateaubriand-steak-for-2.2cb9ed7cc3227fd26c455d51ca9745ab.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pats-original-philly-cheesesteak-4-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/87749/pats-original-philly-cheesesteak-4-pack.fe6d8af186d93848f9a5090118fe8b46.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "world-famous-shrimp-cocktail",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/89041/world-famous-shrimp-cocktail-for-4-6.9e41abca0496dfbd5a9fb2adbffeef88.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "pats-original-philly-cheesesteak-8-pack",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/87773/pats-original-philly-cheesesteak-8-pack.1f350a7bf2852552bf219d6609405c69.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "16124-steak-mushroom-onion-and-gruyere",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/69598/steak-mushroom-onion-and-gruyere-pie.169cb773b3f53ba330ae18fa0edb0b4c.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "21-usda-prime-burgers-pack-of-18-8oz-each",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133009/usda-prime-burgers-pack-of-18-8oz-each.274c67f15aa1c0b210dbf51801706670.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            },
+            {
+                "id": "st-elmo-gift-box",
+                "url": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/88901/st-elmo-gift-box.83e4e53934fc6e314b4f3999b9f089af.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+                "reason": "HTTP 404"
+            }
+        ]
+    }
+}
