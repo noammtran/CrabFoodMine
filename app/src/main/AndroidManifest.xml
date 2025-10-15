@@ -12,9 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CrabFood">
         <activity
-            android:name=".activities.DetailedDailyMealActivity"
-            android:exported="false" />
-        <activity
             android:name=".activities.RegistryActivity"
             android:exported="false" />
         <activity

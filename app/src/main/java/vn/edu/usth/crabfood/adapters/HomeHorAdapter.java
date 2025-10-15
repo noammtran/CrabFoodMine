@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 import vn.edu.usth.crabfood.DataHelper;
 import vn.edu.usth.crabfood.R;
@@ -24,8 +25,15 @@ import vn.edu.usth.crabfood.models.HomeHorModels;
 import vn.edu.usth.crabfood.models.HomeVerModels;
 import vn.edu.usth.crabfood.models.IceCream;
 import vn.edu.usth.crabfood.models.Pizza;
+import vn.edu.usth.crabfood.models.Pork;
 import vn.edu.usth.crabfood.models.Sandwich;
 import vn.edu.usth.crabfood.models.Sausage;
+import vn.edu.usth.crabfood.models.Bread;
+import vn.edu.usth.crabfood.models.Chocolate;
+import vn.edu.usth.crabfood.models.Drink;
+import vn.edu.usth.crabfood.models.Steak;
+import vn.edu.usth.crabfood.models.Dessert;
+import vn.edu.usth.crabfood.models.FriedChicken;
 
 public class HomeHorAdapter extends RecyclerView.Adapter<HomeHorAdapter.ViewHolder>{
 
@@ -37,7 +45,7 @@ public class HomeHorAdapter extends RecyclerView.Adapter<HomeHorAdapter.ViewHold
     boolean check = true;
     boolean select = true;
     int row_index = 0;
-    ArrayList<Bbq> bbq;
+
 
     public HomeHorAdapter(UpdateVerticalRec updateVerticalRec, Activity activity, ArrayList<HomeHorModels> list) {
         this.updateVerticalRec = updateVerticalRec;
@@ -120,7 +128,83 @@ public class HomeHorAdapter extends RecyclerView.Adapter<HomeHorAdapter.ViewHold
 
                        updateVerticalRec.callBack(position, homeVerModels);
 
+                   } else if (position == 5) {
+                       ArrayList<HomeVerModels> homeVerModels = new ArrayList<>();
+                       for (Bbq bbq: DataHelper.menu.getBbqs())
+                       {
+                           homeVerModels.add(new HomeVerModels(bbq.getImg(), bbq.getName(), bbq.getDsc(), Integer.toString(bbq.getRate()), Double.toString(bbq.getPrice()), bbq.getDsc()));
+                       }
+
+                       updateVerticalRec.callBack(position, homeVerModels);
+
+                   } else if (position == 6) {
+                       ArrayList<HomeVerModels> homeVerModels = new ArrayList<>();
+                       for (Bread bread: DataHelper.menu.getBreads())
+                       {
+                           homeVerModels.add(new HomeVerModels(bread.getImg(), bread.getName(), bread.getDsc(), Integer.toString(bread.getRate()), Double.toString(bread.getPrice()), bread.getDsc()));
+                       }
+
+                       updateVerticalRec.callBack(position, homeVerModels);
+
+                   } else if (position == 7) {
+                       ArrayList<HomeVerModels> homeVerModels = new ArrayList<>();
+                       for (Chocolate chocolate: DataHelper.menu.getChocolates())
+                       {
+                           homeVerModels.add(new HomeVerModels(chocolate.getImg(), chocolate.getName(), chocolate.getDsc(), Integer.toString(chocolate.getRate()), Double.toString(chocolate.getPrice()), chocolate.getDsc()));
+                       }
+
+                       updateVerticalRec.callBack(position, homeVerModels);
+
+                   } else if (position == 8) {
+                       ArrayList<HomeVerModels> homeVerModels = new ArrayList<>();
+                       for (Drink drink: DataHelper.menu.getDrinks())
+                       {
+                           homeVerModels.add(new HomeVerModels(drink.getImg(), drink.getName(), drink.getDsc(), Integer.toString(drink.getRate()), Double.toString(drink.getPrice()), drink.getDsc()));
+                       }
+
+                       updateVerticalRec.callBack(position, homeVerModels);
+
+                   } else if (position == 9) {
+                       ArrayList<HomeVerModels> homeVerModels = new ArrayList<>();
+                       for (Pork pork: DataHelper.menu.getPorks())
+                       {
+                           homeVerModels.add(new HomeVerModels(pork.getImg(), pork.getName(), pork.getDsc(), Integer.toString(pork.getRate()), Double.toString(pork.getPrice()), pork.getDsc()));
+                       }
+
+                       updateVerticalRec.callBack(position, homeVerModels);
+
+                   } else if (position == 10) {
+                       ArrayList<HomeVerModels> homeVerModels = new ArrayList<>();
+                       for (Steak steak: DataHelper.menu.getSteaks())
+                       {
+                           homeVerModels.add(new HomeVerModels(steak.getImg(), steak.getName(), steak.getDsc(), Integer.toString(steak.getRate()), Double.toString(steak.getPrice()), steak.getDsc()));
+                       }
+
+                       updateVerticalRec.callBack(position, homeVerModels);
+
+                   } else if (position == 11) {
+                       ArrayList<HomeVerModels> homeVerModels = new ArrayList<>();
+                       if (DataHelper.menu.getDesserts() != null) {
+                           for (Dessert dessert: DataHelper.menu.getDesserts())
+                           {
+                               homeVerModels.add(new HomeVerModels(dessert.getImg(), dessert.getName(), dessert.getDsc(), Integer.toString(dessert.getRate()), Double.toString(dessert.getPrice()), dessert.getDsc()));
+                           }
+                       }
+
+                       updateVerticalRec.callBack(position, homeVerModels);
+
+                   } else if (position == 12) {
+                       ArrayList<HomeVerModels> homeVerModels = new ArrayList<>();
+                       if (DataHelper.menu.getFriedChicken() != null) {
+                           for (FriedChicken friedChicken: DataHelper.menu.getFriedChicken())
+                           {
+                               homeVerModels.add(new HomeVerModels(friedChicken.getImg(), friedChicken.getName(), friedChicken.getDsc(), Integer.toString(friedChicken.getRate()), Double.toString(friedChicken.getPrice()), friedChicken.getDsc()));
+                           }
+                       }
+
+                       updateVerticalRec.callBack(position, homeVerModels);
                    }
+
                }
             });
             if (select){
