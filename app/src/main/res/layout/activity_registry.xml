@@ -110,6 +110,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/emailReg"
+                    android:hint="@string/username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"
@@ -133,6 +134,7 @@
                     android:id="@+id/passF"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:hint="@string/password"
                     android:inputType="textPassword"
                     android:singleLine="true"
                     android:textColorHint="#80000000" />
@@ -154,7 +156,7 @@
                     android:id="@+id/passS"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textPassword"
+                    android:hint="@string/re_enter_password"
                     android:singleLine="true"
                     android:textColorHint="#80000000" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -170,6 +172,7 @@
                 android:text="@string/register"
                 android:fontFamily="@font/acme"
                 android:textSize="18sp"
+                app:backgroundTint="@color/orange"
                 android:textAllCaps="false"
                 android:textColor="@android:color/black"
                 android:background="@drawable/btn_primary_radial" />

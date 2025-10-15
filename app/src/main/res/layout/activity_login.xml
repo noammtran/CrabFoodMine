@@ -107,13 +107,13 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
-                android:hint="@string/username"
                 app:shapeAppearanceOverlay="@style/Shape.Radius12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/emailText"
+                    android:hint="@string/username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"
@@ -135,6 +135,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/passText"
+                    android:hint="@string/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
@@ -154,6 +155,7 @@
                 android:fontFamily="@font/acme"
                 android:textSize="18sp"
                 android:textAllCaps="false"
+                app:backgroundTint="@color/orange"
                 android:textColor="@android:color/black"
                 android:background="@drawable/btn_primary_radial" />
 
