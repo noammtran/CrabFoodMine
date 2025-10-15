@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 import vn.edu.usth.crabfood.R;
@@ -31,7 +33,8 @@ public class FeaturedAdapter extends RecyclerView.Adapter<FeaturedAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.image.setImageResource(list.get(position).getImage());
+
+        Picasso.get().load(list.get(position).getImage()).error(R.drawable.nodata).into(holder.image);
         holder.name.setText(list.get(position).getName());
         holder.desc.setText(list.get(position).getDesc());
     }

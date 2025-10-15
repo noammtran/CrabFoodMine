@@ -117,8 +117,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
-                android:backgroundTint="@color/orange"
                 android:elevation="2dp"
+                app:backgroundTint="@color/orange"
                 android:fontFamily="@font/acme"
                 android:onClick="Login"
                 android:text="@string/login"
@@ -133,12 +133,13 @@
                 style="?attr/materialButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/orange"
+                app:backgroundTint="@color/orange"
                 android:fontFamily="@font/acme"
                 android:onClick="Registry"
                 android:text="@string/register"
                 android:textAllCaps="false"
                 android:textSize="18sp"
+                android:textColor="@color/black"
                 android:background="@drawable/title_chip" />
 
         </LinearLayout>

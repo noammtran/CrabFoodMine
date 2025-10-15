@@ -12,21 +12,26 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import vn.edu.usth.crabfood.R;
 import vn.edu.usth.crabfood.activities.DetailedDailyMealActivity;
+import vn.edu.usth.crabfood.models.CartItem;
 import vn.edu.usth.crabfood.models.DailyMealModels;
 
 public class DailyMealAdapter extends RecyclerView.Adapter<DailyMealAdapter.ViewHolder> {
 
     Context context;
     List<DailyMealModels> list;
+    private List<CartItem> cartItems;
 
     public DailyMealAdapter(Context context, List<DailyMealModels> list) {
         this.context = context;
         this.list = list;
     }
+
+
 
     @NonNull
     @Override
@@ -36,6 +41,7 @@ public class DailyMealAdapter extends RecyclerView.Adapter<DailyMealAdapter.View
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
+
 
         holder.imageView.setImageResource(list.get(position).getImage());
         holder.name.setText(list.get(position).getName());
@@ -55,7 +61,7 @@ public class DailyMealAdapter extends RecyclerView.Adapter<DailyMealAdapter.View
 
     @Override
     public int getItemCount() {
-        return list.size();
+        return list == null ? 0 : list.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -66,7 +72,7 @@ public class DailyMealAdapter extends RecyclerView.Adapter<DailyMealAdapter.View
             super(itemView);
 
             imageView = itemView.findViewById(R.id.imageview);
-            name = itemView.findViewById(R.id.textView);
+            name = itemView.findViewById(R.id.textView7);
             description = itemView.findViewById(R.id.textView5);
             discount = itemView.findViewById(R.id.discount);
         }

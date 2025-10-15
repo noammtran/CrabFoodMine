@@ -1,25 +1,27 @@
 package vn.edu.usth.crabfood.models;
 
 public class HomeVerModels {
-    int image;
+    String image;
     String name;
     String timing;
     String rating;
     String price;
+    String desc;
 
-    public HomeVerModels(int image, String name, String timing, String rating, String price) {
+    public HomeVerModels(String image, String name, String timing, String rating, String price, String desc) {
         this.image = image;
         this.name = name;
         this.timing = timing;
         this.rating = rating;
         this.price = price;
+        this.desc = desc;
     }
 
-    public int getImage() {
+    public String getImage() {
         return image;
     }
 
-    public void setImage(int image) {
+    public void setImage(String image) {
         this.image = image;
     }
 
@@ -29,6 +31,14 @@ public class HomeVerModels {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
     }
 
     public String getTiming() {

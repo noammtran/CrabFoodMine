@@ -16,7 +16,7 @@
     <string name="product_name">Product Name</string>
     <string name="min_45">Min - $45</string>
     <string name="doesn_t_have_account_yet">Doesn\'t have account yet?</string>
-    <string name="hello_ali">Hello Ali</string>
+    <string name="hello_ali">Welcome</string>
     <string name="what_do_you_want">What do you want ?</string>
     <string name="search_your_food">Search your Food!</string>
     <string name="pizza">Pizza</string>
@@ -39,5 +39,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="food_item_image">Food item image</string>
+    <string name="description_here">Description Here</string>
+    <string name="Food_name">Food Text</string>
+    <string name="welcome_to_crabfood">Welcome to CrabFood</string>
 
 </resources>

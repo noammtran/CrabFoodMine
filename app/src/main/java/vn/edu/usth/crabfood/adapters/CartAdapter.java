@@ -10,7 +10,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
 import java.text.NumberFormat;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
@@ -18,17 +21,16 @@ import vn.edu.usth.crabfood.models.CartItem;
 import vn.edu.usth.crabfood.R;
 
 public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
+    public static final List<CartItem> cartItems = new ArrayList<>();
 
-    private final List<CartItem> cartItems;
-    private final CartItemListener listener;
+    public final CartItemListener listener;
 
     public interface CartItemListener {
         void onQuantityChanged();
         void onItemRemoved(CartItem item);
     }
 
-    public CartAdapter(List<CartItem> cartItems, CartItemListener listener) {
-        this.cartItems = cartItems;
+    public CartAdapter(CartItemListener listener) {
         this.listener = listener;
     }
 
@@ -44,7 +46,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
         CartItem cartItem = cartItems.get(position);
 
         holder.itemName.setText(cartItem.getName());
-        holder.itemImage.setImageResource(cartItem.getImageResourceId());
+        Picasso.get().load(cartItem.getImageResourceId()).error(R.drawable.nodata).into(holder.itemImage);
         holder.itemQuantity.setText(String.valueOf(cartItem.getQuantity()));
         holder.ratingBar.setRating(cartItem.getRating()); // Set the rating
 

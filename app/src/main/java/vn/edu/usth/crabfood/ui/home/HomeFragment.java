@@ -28,7 +28,8 @@ public class HomeFragment extends Fragment implements UpdateVerticalRec {
     ArrayList<HomeVerModels> homeVerModelList;
     HomeVerAdapter homeVerAdapter;
 
-    public View OncreateView(@NonNull LayoutInflater inflater,
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
@@ -59,6 +60,17 @@ public class HomeFragment extends Fragment implements UpdateVerticalRec {
         homeVerticalRec.setLayoutManager(new LinearLayoutManager(getActivity(),RecyclerView.VERTICAL,false));
         return root;
     }
+
+    @Override
+    public View OncreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return null;
+    }
+
+    @Override
+    public View OnCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return null;
+    }
+
     @SuppressLint("NotifyDataSetChanged")
     @Override
     public void callBack(int position, ArrayList<HomeVerModels> list) {

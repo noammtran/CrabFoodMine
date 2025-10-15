@@ -15,9 +15,9 @@ public class FragmentAdapter extends FragmentStateAdapter {
     public Fragment createFragment(int position) {
         switch (position) {
             case 1:
-                return new SecondFragment();
+                return new FirstFragment();
             case 2:
-                return new ThirdFragment();
+                return new FirstFragment();
         }
         return new FirstFragment();
     }

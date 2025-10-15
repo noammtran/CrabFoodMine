@@ -1,21 +1,21 @@
 package vn.edu.usth.crabfood.models;
 
 public class FeaturedModel {
-    int image;
+    String image;
     String name;
     String desc;
 
-    public FeaturedModel(int image, String name, String desc) {
+    public FeaturedModel(String image, String name, String desc) {
         this.image = image;
         this.name = name;
         this.desc = desc;
     }
 
-    public int getImage() {
+    public String getImage() {
         return image;
     }
 
-    public void setImage(int image) {
+    public void setImage(String image) {
         this.image = image;
     }
 

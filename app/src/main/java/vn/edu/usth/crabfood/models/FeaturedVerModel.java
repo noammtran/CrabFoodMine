@@ -1,13 +1,13 @@
 package vn.edu.usth.crabfood.models;
 
 public class FeaturedVerModel {
-    int image;
+    String image;
     String name;
     String description;
     String rating;
     String timing;
 
-    public FeaturedVerModel(int image, String name, String description, String rating, String timing) {
+    public FeaturedVerModel(String image, String name, String description, String rating, String timing) {
         this.image = image;
         this.name = name;
         this.description = description;
@@ -15,11 +15,11 @@ public class FeaturedVerModel {
         this.timing = timing;
     }
 
-    public int getImage() {
+    public String getImage() {
         return image;
     }
 
-    public void setImage(int image) {
+    public void setImage(String image) {
         this.image = image;
     }
 
