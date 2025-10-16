@@ -22,7 +22,6 @@
             android:layout_height="72dp"
             android:scaleType="centerCrop"
             android:contentDescription="@string/food_item_image"
-            android:foreground="@drawable/bg_cart_item_image_fade"
             android:foregroundGravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
