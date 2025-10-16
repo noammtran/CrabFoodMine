@@ -66,7 +66,7 @@
                     android:id="@+id/detailed_rating"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="5.0"
+                    android:text="@string/_5_0"
                     android:textStyle="bold" />
 
                 <ImageView
@@ -81,7 +81,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="4dp"
-                    android:text="10:00 - 7:00"
+                    android:text="@string/_10_00_7_00"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -89,9 +89,10 @@
 
             <Button
                 android:id="@+id/addBtn"
+                android:backgroundTint="@color/medium_red"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="add to cart"/>
+                android:text="@string/add_to_card"/>
         </LinearLayout>
     </LinearLayout>
 

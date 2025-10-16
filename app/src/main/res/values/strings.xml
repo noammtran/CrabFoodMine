@@ -40,5 +40,7 @@
     <string name="description_here">Description Here</string>
     <string name="Food_name">Food Text</string>
     <string name="welcome_to_crabfood">Welcome to CrabFood</string>
+    <string name="add_to_card">Add to Card</string>
+    <string name="_10_00_7_00">10:00 - 7:00</string>
 
 </resources>

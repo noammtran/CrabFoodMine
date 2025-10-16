@@ -17,7 +17,6 @@
         tools:src="@drawable/cake"
         android:contentDescription="@string/food_item_image" />
 
-    <!-- Remove Button -->
     <TextView
         android:id="@+id/remove_item_button"
         android:layout_width="wrap_content"
@@ -29,7 +28,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Item Name -->
+
     <TextView
         android:id="@+id/item_name"
         android:layout_width="0dp"
@@ -45,7 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         tools:text="Cheesecake" />
 
-    <!-- Rating Bar -->
+
     <RatingBar
         android:id="@+id/rating_bar"
         style="?android:attr/ratingBarStyleSmall"
@@ -59,10 +58,10 @@
         app:layout_constraintTop_toBottomOf="@id/item_name"
         tools:rating="4.5" />
 
-    <!-- Minus Button -->
+
     <Button
         android:id="@+id/minus_button"
-        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="?attr/selectableItemBackgroundBorderless"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
@@ -72,7 +71,7 @@
         app:layout_constraintStart_toEndOf="@id/item_image"
         app:layout_constraintTop_toBottomOf="@id/rating_bar" />
 
-    <!-- Quantity -->
+
     <TextView
         android:id="@+id/item_quantity"
         android:layout_width="wrap_content"
