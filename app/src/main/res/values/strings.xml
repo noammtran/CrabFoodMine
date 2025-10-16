@@ -23,7 +23,11 @@
     <string name="description_description_description">Description Description Dinner</string>
     <string name="Discount">Discount</string>
     <string name="Dinner">Dinner</string>
-
+    <string name="cart_total_label">Order total</string>
+    <string name="cart_delivery_hint">Delivery fees are calculated at checkout.</string>
+    <string name="cart_discount_hint">Free delivery for orders above 200.000 vnd</string>
+    <string name="cart_checkout">Proceed to checkout</string>
+    <string name="cart_tagline">Review your delicious selections</string>
     <!-- TODO: Remove or change this placeholder text -->
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -42,5 +46,6 @@
     <string name="welcome_to_crabfood">Welcome to CrabFood</string>
     <string name="add_to_card">Add to Card</string>
     <string name="_10_00_7_00">10:00 - 7:00</string>
+    <string name="log_out">Log Out</string>
 
 </resources>

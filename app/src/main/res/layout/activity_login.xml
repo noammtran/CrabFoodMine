@@ -154,7 +154,7 @@
                 android:fontFamily="@font/acme"
                 android:textSize="18sp"
                 android:textAllCaps="false"
-                app:backgroundTint="@color/orange"
+                app:backgroundTint="@color/brand_orange"
                 android:textColor="@android:color/black"
                 android:background="@drawable/btn_primary_radial" />
 
@@ -184,7 +184,7 @@
                     android:text="@string/register"
                     android:fontFamily="@font/acme"
                     android:textAllCaps="false"
-                    android:textColor="@color/orange"
+                    android:textColor="@color/brand_orange"
                     android:textSize="20sp"
                     android:onClick="Registry"
                     android:layout_width="wrap_content"

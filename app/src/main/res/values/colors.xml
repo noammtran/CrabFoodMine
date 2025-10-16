@@ -13,4 +13,9 @@
     <color name="red">#FF0000</color>
     <color name="brand_orange">#FF6F00</color>
     <color name="medium_red">#B20000</color>
+    <color name="ivory_cream">#FFF6E9</color>
+    <color name="pure_white">#FFFFFFFF</color>
+    <color name="amber">#33FF6F00</color>
+    <color name="dark_gray">#80333333</color>
+    <color name="frosted_white">#66FFFFFF</color>
 </resources>
