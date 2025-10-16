@@ -3,7 +3,7 @@
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="Appdes">An app that kick grabfood ass</string>
-    <string name="username">Username</string>
+    <string name="username">User Email</string>
     <string name="password">Password</string>
     <string name="re_enter_password">Re-enter Password</string>
     <string name="already_has_account">Already has account?</string>

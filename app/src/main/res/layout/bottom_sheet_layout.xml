@@ -29,7 +29,6 @@
         app:cardUseCompatPadding="false"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView4"
         app:layout_constraintWidth_percent="0.32"
         app:strokeColor="@color/dark_gray"
         app:strokeWidth="1dp">

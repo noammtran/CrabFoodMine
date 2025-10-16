@@ -67,7 +67,7 @@ public class CartFragment extends Fragment implements CartAdapter.CartItemListen
         }
 
         NumberFormat format = NumberFormat.getInstance(new Locale("vi", "VN"));
-        String formattedPrice = format.format(total) + " vnd";
+        String formattedPrice = format.format(total) + " usd";
 
         totalPriceTextView.setText(formattedPrice);
     }
