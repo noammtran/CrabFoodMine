@@ -123,10 +123,9 @@
                 android:onClick="Login"
                 android:text="@string/login"
                 android:textAllCaps="false"
-
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
-                android:background="@drawable/title_chip" />
+                android:background="@drawable/btn_primary_radial" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnRegister"
@@ -140,7 +139,7 @@
                 android:textAllCaps="false"
                 android:textSize="18sp"
                 android:textColor="@color/black"
-                android:background="@drawable/title_chip" />
+                android:background="@drawable/btn_primary_radial" />
 
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
