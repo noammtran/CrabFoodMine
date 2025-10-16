@@ -63,18 +63,8 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 
-    <!-- Tabs for switching fragments -->
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tab_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:tabIndicatorColor="@android:color/holo_blue_dark"
-        app:tabSelectedTextColor="@android:color/holo_blue_dark"
-        app:tabTextColor="@android:color/darker_gray"/>
-
-    <!-- ViewPager2 for fragments -->
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/view_pager2"
+    <FrameLayout
+        android:id="@+id/favourite_content"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"/>
