@@ -26,7 +26,6 @@
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:textSize="13sp"
-
             tools:layout_editor_absoluteX="7dp"
             tools:layout_editor_absoluteY="7dp" />
 

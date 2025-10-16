@@ -99,8 +99,23 @@
                 android:layout_marginVertical="16dp"
                 android:background="@color/cart_divider" />
 
+            <TextView
+                android:id="@+id/delivery_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cart_delivery_hint"
+                android:textColor="@color/cart_text_muted"
+                android:textSize="14sp" />
 
-
+            <TextView
+                android:id="@+id/cart_discount_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/cart_discount_hint"
+                android:textColor="@color/brand_orange"
+                android:textSize="14sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
@@ -114,7 +129,7 @@
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textSize="18sp"
-        android:fontFamily="@font/acme"
+        android:fontFamily="@font/amarante"
         android:paddingVertical="16dp"
         android:backgroundTint="@color/brand_orange"
         app:cornerRadius="100dp"

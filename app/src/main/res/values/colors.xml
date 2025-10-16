@@ -13,4 +13,9 @@
     <color name="red">#FF0000</color>
     <color name="brand_orange">#FF6F00</color>
     <color name="medium_red">#B20000</color>
+    <color name="cart_background_start">#FFF6E9</color>
+    <color name="cart_background_end">#FFFFFFFF</color>
+    <color name="cart_divider">#33FF6F00</color>
+    <color name="cart_text_muted">#80333333</color>
+    <color name="cart_image_edge_tint">#66FFFFFF</color>
 </resources>
