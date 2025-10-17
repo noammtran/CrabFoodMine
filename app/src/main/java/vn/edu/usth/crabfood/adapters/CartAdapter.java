@@ -57,7 +57,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
 
         holder.plusButton.setOnClickListener(v -> {
             int currentQuantity = cartItem.getQuantity();
-            cartItem.setQuantit     y(currentQuantity + 1);
+            cartItem.setQuantity(currentQuantity + 1);
             notifyItemChanged(position);
             if (listener != null) {
                 listener.onQuantityChanged();
