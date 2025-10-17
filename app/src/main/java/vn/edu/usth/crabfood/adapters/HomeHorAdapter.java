@@ -217,7 +217,7 @@ public class HomeHorAdapter extends RecyclerView.Adapter<HomeHorAdapter.ViewHold
                 if (row_index == position) {
                     holder.cardView.setBackgroundResource(R.drawable.change_bg);
                 }else {
-                    holder.cardView.setBackgroundResource(R.drawable.default_bg);
+                    holder.cardView.setBackgroundResource(R.drawable.search_bg);
                 }
             }
 

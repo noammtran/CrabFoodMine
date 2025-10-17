@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mediumGray"
+    android:background="@drawable/bg_home_gradient"
     android:paddingTop="5dp"
     tools:context=".ui.home.HomeFragment">
 
@@ -23,8 +23,8 @@
             android:paddingRight="9dp"
             android:fontFamily="@font/amita"
             android:hint="@string/search_your_food"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:textSize="13sp"
             tools:layout_editor_absoluteX="7dp"
             tools:layout_editor_absoluteY="7dp" />
@@ -47,7 +47,7 @@
             android:layout_margin="6dp"
             android:fontFamily="@font/amarante"
             android:text="@string/hello_ali"
-            android:textColor="@color/white"
+            android:textColor="@color/brand_orange"
             android:textSize="35dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText3" />
@@ -60,7 +60,7 @@
             android:layout_marginLeft="6dp"
             android:fontFamily="@font/amita"
             android:text="@string/what_do_you_want"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
