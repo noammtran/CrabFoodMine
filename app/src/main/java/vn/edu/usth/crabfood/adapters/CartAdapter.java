@@ -51,7 +51,8 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
         holder.ratingBar.setRating(cartItem.getRating()); // Set the rating
 
         NumberFormat format = NumberFormat.getInstance(new Locale("vi", "VN"));
-        String formattedPrice = format.format(cartItem.getPrice()) + " usd";
+        double itemTotalPrice = cartItem.getPrice() * cartItem.getQuantity();
+        String formattedPrice = format.format(itemTotalPrice) + " usd";
         holder.itemPrice.setText(formattedPrice);
 
         holder.plusButton.setOnClickListener(v -> {
