@@ -1,5 +1,6 @@
 package vn.edu.usth.crabfood;
 
+import android.app.Application;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
@@ -16,18 +17,46 @@ import com.google.gson.Gson;
 import java.util.HashMap;
 import java.util.Map;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 import vn.edu.usth.crabfood.adapters.CartAdapter;
+import vn.edu.usth.crabfood.api.ApiService;
 import vn.edu.usth.crabfood.models.CartItem;
 import vn.edu.usth.crabfood.models.Menu;
 
-public class DataHelper {
+public class DataHelper extends Application {
+    private static DataHelper instance;
+    public static DataHelper getInstance(){
+        return instance;
+    }
     public static Menu menu = new Menu();
     public static FirebaseFirestore firestore;
     public static String userID;
 
     FirebaseAuth userId;
-    private DataHelper(){
 
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        instance = this;
+        instance.initializeInstance();
+    }
+
+    private void initializeInstance() {
+        ApiService.apiService.GetAll().enqueue(new Callback<Menu>() {
+
+            @Override
+            public void onResponse(Call<Menu> call, Response<Menu> response) {
+                Log.e("lmao", "thanhcong");
+                menu = response.body();
+            }
+
+            @Override
+            public void onFailure(Call<Menu> call, Throwable t) {
+                Log.e("lmao", "ngudan");
+            }
+        });
     }
 
     public static  void saveData()

@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+import vn.edu.usth.crabfood.DataHelper;
 import vn.edu.usth.crabfood.R;
 import vn.edu.usth.crabfood.adapters.CartAdapter;
 import vn.edu.usth.crabfood.models.CartItem;
@@ -52,11 +53,13 @@ public class CartFragment extends Fragment implements CartAdapter.CartItemListen
 
     @Override
     public void onQuantityChanged() {
+        DataHelper.saveData();
         updateTotalPrice();
     }
 
     @Override
     public void onItemRemoved(CartItem item) {
+        DataHelper.saveData();
         updateTotalPrice();
     }
 

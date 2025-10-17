@@ -27,20 +27,6 @@ public class WelcomeActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_welcome);
 
-        ApiService.apiService.GetAll().enqueue(new Callback<Menu>() {
-
-            @Override
-            public void onResponse(Call<Menu> call, Response<Menu> response) {
-                Log.e("lmao", "thanhcong");
-                DataHelper.menu = response.body();
-            }
-
-            @Override
-            public void onFailure(Call<Menu> call, Throwable t) {
-                Log.e("lmao", "ngudan");
-            }
-        });
-
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
